@@ -1,6 +1,9 @@
 >"NRTS"4#v($$"KCOS"4#v($$"RGNF"4#v(v
          >    >      >     >     >0 a".stnirpregnif dab/gnissiM">:#,_@
 v       )^#  D^#1L' D^#1A'C^#2C'2Q'<
+ Some state initialization
+> 002aaa***p v
+v            <
  Save settings like IP and cmd char                v 0*aa0)S+*aaa0**aaa*aa" "<
 >  f2P  41p  #vIv                                  > 0"89b.tognuf"#@i$$$$     v
 v G1fP1f   p10>#<0a".sserdda PI dilavnI">:#,_@       reload clear loop
@@ -87,36 +90,42 @@ v             <      v"Pong send failed."a0<
    >17G4L0" war"Q!|                   >    >0a".deliaf dnes waR"   >:#,_@
    v              <                 ^_^#!-W^#            g12\3\0: <
                              >$1-     v
-    "^bf"        > 4 >:7g:#v_^  >:0\7p>1+51p 0": "06GA0" GSMVIRP"A 081p 88+:*: 91p v
-   >17G3L0" fb"Q!|         >'!-!|       v8\0:-1< **aaa P30p17+2p16:N         p1a-1 <
- ^               <   ^        +1<       >p:!#v_^         output msg prep
-   . v 40                                   $<0 p740  $<           <
-   . > :0\ > :7g :#v_$$!#v_ >$0ad".][ dehctamsiM" 61g3P   61ge+61p ^
-   . v                   <  ^       $$<
-   .               >:'[-#v_$\1+\v
-   .                     >']-#v_ \:#v_^
-   .       ^                +1< <\-1<
-   .           >0ad"!emit fo tuo... "61g3P 61gf1++61p $^
-   . v +1     _^#!` ***aaaa p18:+1g18     <     < <           <  <       <
-   . > :7g :!#v_ :'+-#v_$ \::8g1+91g%\8p\ ^                  p 3\ a+1p3\d <
-   . v+2g16$$$<       >:'--#v_$ \::8ga1g+91g%\8p \^                 +crlf :
-   . >::71g-!#v_0\3\21g v   >:'>-#v_$ \1+aaa**%\^                         g
- ^ .#       $$<_v#!-Wv# <         >:'<-#v_$ \aaa**1-+ aaa**%\ ^           1
-   .   no out^  >    > v v_v#-,':_v#-.':<     > v    +<v\ P3g16"  ..."0<  6
-   .  v"BF W failed."a0< : $      >$ \:8g:ff+`| >61g3p \61g1+:61p ff*`#^_ ^
-   .  >:#,_@             ' >\:51g7g:#v_\8p\  v>$fff1++^> 61g4+61p :1+0\7p ^
-   .  v \1 \_v#g8:\<     [ v+1g15\p8\<       >                   ^
-   .         >\   v      - >51p \>\          ^   >']-#v_\1-:#v_$ ^
-   .  >1-:7g:']-v  |!-]' _$ \:8g#^_\ 1\>1+:7g:'[-|           \
-   .  ^   \+1\$<!  v                   ^    \+1\$<
-   .  ^      < ^_v                     ^              <      <
-   .         |-['<>>  >                                          ^
-   .         >\1-:#v_$^
-   .  ^           \<
-   .
-   .
-  next
-  cmd
+    "^bf"        > 4 >:7g:#v_^  >:0\7p>1+51p 081p 88+:*: 91p 1-a1p v
+   >17G3L0" fb"Q!|         >'!-!|       v8\0:-1< **aaa  p17+2g16   <
+   v             <   ^        +1<       >p:!#v_^         output msg prep
+     v 40                                   $<0 p740  $<           <
+     > :0\ > :7g :#v_$$!#v_ >$0ad".][ dehctamsiM" 61g3P   61ge+61p ^
+     v                   <  ^       $$<
+                   >:'[-#v_$\1+\v
+                         >']-#v_ \:#v_^
+           ^                +1< <\-1<
+               >0ad"!emit fo tuo... "61g3P 61gf1++61p $^
+     v +1     _^#!` ***aaaa p18:+1g18     <     < <           <  <       <
+     > :7g :!#v_ :'+-#v_$ \::8g1+91g%\8p\ ^                  p 3\ a+1p3\d <
+     v+2g16$$$<       >:'--#v_$ \::8ga1g+91g%\8p \^                 +crlf :
+     >::71g-!#v_0\3\21g v   >:'>-#v_$ \1+aaa**%\^                         g
+ ^          $$<_v#!-Wv# <         >:'<-#v_$ \aaa**1-+ aaa**%\ ^           1
+       no out^  >    > v v_v#-,':_v#-.':<     > v    +<v\ P3g16"  ..."0<  6
+      v"BF W failed."a0< : $      >$ \:8g:ff+`| >61g3p \61g1+:61p ff*`#^_ ^
+      >:#,_@             ' >\:51g7g:#v_\8p\  v>$fff1++^> 61g4+61p :1+0\7p ^
+      v \1 \_v#g8:\<     [ v+1g15\p8\<       >                   ^
+             >\   v      - >51p \>\          ^   >']-#v_\1-:#v_$ ^
+      >1-:7g:']-v  |!-]' _$ \:8g#^_\ 1\>1+:7g:'[-|           \
+      ^   \+1\$<!  v                   ^    \+1\$<
+      ^      < ^_v                     ^              <      <
+             |-['<>>  >                                          ^
+             >\1-:#v_$^             >0":deretsigeR"v
+      ^           \<                 vp16+bg16P3g16<
+                                            > :0\G 61g :" "\3p 1+:v
+    "^bfcmd"       > 2aaa*** 67g#v_ ^> :0\g#^_ $61g:d\3p1+ :a\3p1+ 0\3\21g#vWv
+   >17G5L0"dmcfb"Q!|                 ^+2 _ #!<p16+g16NG\0: P3 p16 <          $
+ ^                 <     _#                <_#<                            < <
+                     d-if|-" "g76<    v+1   $#    <
+                         >:0\g#v_51p 7>:7g:!| ^ p+ 2g1500  P+1g150G7  <
+                         ^  +2 <            >" "-#^_ :0\7p77G051gP 1+ ^
+                                                                     
+
+_ #!<
 
 
 fungespace storage:
@@ -152,6 +161,12 @@ brainfuck interp uses:
  (a,1): 255: for modulo
  top of stack (at start): input program position (x, y=7)
  second on stack: input data array position (x, y=8)
+
+bfcmd data block:
+ (0,2000) base
+ two rows per registered command
+ first row has zero-terminated command name
+ second row has corresponding brainfuck program
 
 --- this code block prints out parts of the IRC message         ---
 --- if you put it at the point where the message has been split ---
