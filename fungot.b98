@@ -65,26 +65,27 @@ v                                < end of options
 > 15G0"GNIP"Q#v_0ad"tognuf: GNOP"03P03e21g#vW^
 v             <      v"Pong send failed."a0<
                      >:#,_@
- ^              <
+ ^              <               <
   privmsg!
-> 15G0"GSMVIRP"Q|
- ^_v#-g14g70    <
+> 15G0"GSMVIRP"Q| parse privmsg   target/prefix for reply
+                >06g'#-!#v_ 04g!|  v+1           <
+                v        <p4\!'<> 1>:4g:!#v_ '!- |
+                               |  P60 G41 <1p4\0:<
+                v              _ d-if
+                  build reply prefix
+ ^_v#-g14g70 <  >0": "06GA0" GSMVIRP"A v
+     cmdchk  ^                P30 p16N <
  ^                 <
-     parse privmsg   target/prefix for reply
-   >06g'#-!#v_ 04g!|  v+1           <
-   v        <p4\!'<> 1>:4g:!#v_ '!- |
-      is chan     |  P60 G41 <1p4\0:<
-   v              _ d-if
 
      actual command-character commands
- ^                         <         <             <   <
+ ^                         <         <  < <        <
     "^reload"        >04g!#^_f2G14GQ#^_    "SYOT"4#^(                        ^
-   >17G6L 0"daoler"Q!|                                 ^$_,#! #:<"Reloaded."a0<
+   >17G6L 0"daoler"Q!|   prefix check   ^W^#   g12\3\0+bg16P3g16"Reloaded."ad0<
    v                 <
-                    check prefix
-    "^raw"        >04g!#v_f2G14GQ#v_ 57GN51p03P 51g:d\3p1+:a\3p1+ v
-   >17G4L0" war"Q!|                  >    >0a".deliaf dnes waR"    >:#,_@
-   v              <     <         < _^#!-W^#             g12\3\0: <
+ ^                      <         < <
+    "^raw"        >04g!#^_f2G14GQ#^_ 57GN51p03P 51g:d\3p1+:a\3p1+ v
+   >17G4L0" war"Q!|                   >    >0a".deliaf dnes waR"   >:#,_@
+   v              <                 ^_^#!-W^#            g12\3\0: <
                              >$1-     v
     "^bf"        > 4 >:7g:#v_^  >:0\7p>1+51p 0": "06GA0" GSMVIRP"A 081p 88+:*: 91p v
    >17G3L0" fb"Q!|         >'!-!|       v8\0:-1< **aaa P30p17+2p16:N         p1a-1 <
@@ -126,7 +127,9 @@ fungespace storage:
   (2,1): server socket
   (3,1): at message-splitting, start of current command/option
   (4,1): command character
-  (5-10,1): temp
+  (5,1): temp
+  (6,1): privmsg reply packet prefix len
+  (7-10,1): temp
   (15-,1): bot's nickname
  (*,2): socket message-splitting vars
   (0,2): start of message
