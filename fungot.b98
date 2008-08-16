@@ -1,10 +1,10 @@
 >"NRTS"4#v($$"KCOS"4#v($$"RGNF"4#v(v
          >    >      >     >     >0 a".stnirpregnif dab/gnissiM">:#,_@
 v       )^#  D^#1L' D^#1A'C^#2C'2Q'<
- Save settings like IP and cmd char
->  f2P  41p  #vIv
-v G1fP1f   p10>#<0a".sserdda PI dilavnI">:#,_@
- Build initial login packet at (0,0)
+ Save settings like IP and cmd char                v 0*aa0)S+*aaa0**aaa*aa" "<
+>  f2P  41p  #vIv                                  > 0"89b.tognuf"#@i$$$$     v
+v G1fP1f   p10>#<0a".sserdda PI dilavnI">:#,_@       reload clear loop
+ Build initial login packet at (0,0)                    done here
 >0" KCIN"00PN5+11p50P11g:d\0p1+:a\0p1+11p0ad   v
 vp11++2*93g11P0g11"USER fungot * * :fungot-0.1"<
  Create a socket and connect to server
@@ -19,34 +19,34 @@ v         >#     #<^
 >0:02p12pv
 v        <    >     >0a".deliaf daer CRI">:#,_@
 >12g0fff**21g#^R:#v_^
- vp11             <
- 0      >v
- >:11g\`|  coming here if this byte needs to be processed     emptycmd
- v      <> :12g+0g :a-#v_     v  and here if newline           v   0<
- #                     >:d-#v_> $:0\12g+0p 02g0G03P :12g+1+ 02p 03g!|
- ^+1$                       <                                  <
-  end of bytes from irc
- >12g+12pv  updated eptr
- v       <                                      toggle to print raw:
-  have to memmove message                     v$_,#! #:<"RAW >>> "0 <
-      v      +1 p0 -g20 <                     >03G>:#,_$v
- >02g >:12g\`! #v_ ::0g ^                      v" <<<"a0<
-^    p200p21-g20<                              >:#,_$               v
-                            0 <-- dummy value to discard up there
-  irc message handler       ^ return here when finished
-v>#                         ^#                                      <
-
-  check for prefix  v     +1<
-> 03g':-#v_104p    1>:3g" "-|
-v  0 p400< v     P41G31p3\0:<
-v +1       <
-
-  command start pos at stack
-  find next space or 0
-> :31p>:3g:#v_     >\ :0\3p 31g3G15P v
-            >:" "-!|
-      ^         +1$<
-v _v#!                         p13+1 <
+ vp11             <                                                         .
+ 0      >v                                                                  .
+ >:11g\`|  coming here if this byte needs to be processed     emptycmd      .
+ v      <> :12g+0g :a-#v_     v  and here if newline           v   0<       .
+ #                     >:d-#v_> $:0\12g+0p 02g0G03P :12g+1+ 02p 03g!|       .
+ ^+1$                       <                                  <            .
+  end of bytes from irc                                                     .
+ >12g+12pv  updated eptr                                                    .
+ v       <                                      toggle to print raw:        .
+  have to memmove message                     v$_,#! #:<"RAW >>> "0 <       .
+      v      +1 p0 -g20 <                     >03G>:#,_$v                   .
+ >02g >:12g\`! #v_ ::0g ^                      v" <<<"a0<                   .
+^    p200p21-g20<                              >:#,_$               v       .
+                            0 <-- dummy value to discard up there           .
+  irc message handler       ^ return here when finished                     .
+v>#                         ^#                                      <       .
+                                                                            .
+  check for prefix  v     +1<                                               .
+> 03g':-#v_104p    1>:3g" "-|                                               .
+v  0 p400< v     P41G31p3\0:<                                               .
+v +1       <                                                                .
+                                                                            .
+  command start pos at stack                                                .
+  find next space or 0                                                      .
+> :31p>:3g:#v_     >\ :0\3p 31g3G15P v                                      .
+            >:" "-!|                                                        .
+      ^         +1$<                                                        .
+v _v#!                         p13+1 <                                      .
 0  1
 0  0 command ends in nonzero, so at least one option
 5  5 parse the options in a loop, :opt ends
@@ -71,9 +71,9 @@ v             <      v"Pong send failed."a0<
  ^_v#-g14g70    <
 
      actual command-character commands
- ^                         <         <             <  clear from 191 on
-    "^reload"        >04g!#^_f2G14GQ#^_    "SYOT"4#^(" "aa*aaa**0ee*5-S)  v
-   >17G6L 0"daoler"Q!|     ^$_,#! #:<"reload."a0$$$$i@#"fungot.b98"00*aa0 <
+ ^                         <         <             <   <
+    "^reload"        >04g!#^_f2G14GQ#^_    "SYOT"4#^(                        ^
+   >17G6L 0"daoler"Q!|                                 ^$_,#! #:<"Reloaded."a0<
    v                 <
                     check prefix
     "^raw"        >04g!#v_f2G14GQ#v_ 57GN51p03P 51g:d\3p1+:a\3p1+ v
@@ -99,10 +99,10 @@ v             <      v"Pong send failed."a0<
    .  v"BF W failed."a0< : $      >$ \:8g:ff+`| >61g3p \61g1+:61p ff*`#^_ >61g:d\3p^
    .  >:#,_@             ' >\:51g7g:#v_\8p\  v>$fff1++^> 61g4+61p :1+0\7p ^ must add
    .  v \1 \_v#g8:\<     [ v+1g15\p8\<       >                   ^         crlf here
-   .         >\   v$     - >51p \>\          ^   >']-#v_\1-:#v_$ ^
-   .  >1-:7g:']-v  |!-]':_$ \:8g#^_\ 1\>1+:7g:'[-|           \
+   .         >\   v      - >51p \>\          ^   >']-#v_\1-:#v_$ ^
+   .  >1-:7g:']-v  |!-]' _$ \:8g#^_\ 1\>1+:7g:'[-|           \
    .  ^   \+1\$<!  v                   ^    \+1\$<
-   .  ^      < ^_v $                   ^              <      <
+   .  ^      < ^_v                     ^              <      <
    .         |-['<>>  >                                          ^
    .         >\1-:#v_$^
    .  ^           \<
