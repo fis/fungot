@@ -91,8 +91,8 @@ v             <      v"Pong send failed."a0<
    v              <                 ^_^#!-W^#            g12\3\0: <
                              >$1-     v
     "^bf"        > 4 >:7g:#v_^  >:0\7p>1+51p 081p 88+:*: 91p 1-a1p v
-   >17G3L0" fb"Q!|         >'!-!|       v8\0:-1< **aaa  p17+2g16   <
-   v             <   ^        +1<       >p:!#v_^         output msg prep
+  >>17G3L0" fb"Q!|         >'!-!|       v8\0:-1< **aaa  p17+2g16   <
+   v             <   ^        +1<       >p:!#v_^
      v 40                                   $<0 p740  $<           <
      > :0\ > :7g :#v_$$!#v_ >$0ad".][ dehctamsiM" 61g3P   61ge+61p ^
      v                   <  ^       $$<
@@ -119,13 +119,19 @@ v             <      v"Pong send failed."a0<
                                             > :0\G 61g :" "\3p 1+:v
     "^bfcmd"       > 2aaa*** 67g#v_ ^> :0\g#^_ $61g:d\3p1+ :a\3p1+ 0\3\21g#vWv
    >17G5L0"dmcfb"Q!|                 ^+2 _ #!<p16+g16NG\0: P3 p16 <          $
- ^                 <     _#                <_#<                            < <
-                     d-if|-" "g76<    v+1   $#    <
+   v               <v    _#                <_#<                            < <
+ ^                  <d-if|-" "g76<    v+1   $#    <
                          >:0\g#v_51p 7>:7g:!| ^ p+ 2g1500  P+1g150G7  <
                          ^  +2 <            >" "-#^_ :0\7p77G051gP 1+ ^
-                                                                     
 
-_ #!<
+ ^                  <
+    bfcmd ex v +2   $#<                               $Q<
+   > 2aaa*** > :0\g!| ^                      <                   <
+                    > :0\G N51p 17GN51g-!#v_" "51g1+7g-#^_ 51gLQ#^_ v
+  ^                             <         >Q#^_    0\v
+  ^P80 P7g15G80p15+1 p7\!':NG70_^# P74G\0 P71"bf "0+1<\1 P80G7+2g15 <
+
+
 
 
 fungespace storage:
