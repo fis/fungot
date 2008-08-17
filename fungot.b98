@@ -104,7 +104,7 @@ v             <      v"Pong send failed."a0<
                          >']-#v_ \:#v_^
            ^                +1< <\-1<
                >0ad"!emit fo tuo... "61g3P 61gf1++61p $^
-     v +1     _^#!` ***aaaa p18:+1g18     <     < <           <  <       <
+     v +1     _^#!` *****aaaaaa p18:+1g18 <     < <           <  <       <
      > :7g :!#v_ :'+-#v_$ \::8g1+91g%\8p\ ^                  p 3\ a+1p3\d <
      v+2g16$$$<       >:'--#v_$ \::8ga1g+91g%\8p \^                 +crlf :
      >::71g-!#v_0\3\21g v   >:'>-#v_$ \1+aaa**%\^                         g
@@ -118,17 +118,22 @@ v             <      v"Pong send failed."a0<
       ^   \+1\$<!  v                   ^    \+1\$<
       ^      < ^_v                     ^              <      <
              |-['<>>  >                                          ^
-             >\1-:#v_$^             >0":deretsigeR"v               v15g1630P3g1<      vg1630P3g16p1<
-      ^           \<                 vp16+bg16P3g16<               >g+21g #vWv 6      >51g+21g#vWv 5
-                                            > :0\G 61g :" "\3p 1+:v            p                   N
-    "^bfcmd"       > 2aaa*** 67g#v_ ^> :0\g#^_ $61g:d\3p1+ :a\3p1+ 0\3\21g#vWv 1                   A
-   >17G5L0"dmcfb"Q!|                 ^+2 _ #!<p16+g16NG\0: P3 p16 <          $ 5                   G
-   v               <v    _#                                                < < N                   \
- ^                  <d-if|-" "g76<>$$0                >\  >:0\g#v_\#v_$0ad".oN"^      \#v_1+0\a\d\0^
+             >\1-:#v_$^             >0":deretsigeR"v               v15g1630P3g1<
+      ^           \<                 vp16+bg16P3g16<               >g+21g #vWv 6
+                                            > :0\G 61g :" "\3p 1+:v            p
+    "^bfcmd"       > 2aaa*** 67g#v_ ^> :0\g#^_ $61g:d\3p1+ :a\3p1+ 0\3\21g#vWv 1
+   >17G5L0"dmcfb"Q!|                 ^+2 _ #!<p16+g16NG\0: P3 p16 <          $ 5
+   v               <v    _#                                                < < N
+ ^                  <d-if|-" "g76<>$$0                >\  >:0\g#v_\#v_$0ad".oN"^
                          >7>:7g:!#^_" "-#v_:0\7p1+51p1^>2+^
                            ^+1           <       oldcmd|QG77G\0:<
-                    ^       p+1g1700 Pg170G7g15 p17+1< ># \# _1+0\a\ d\0\GA    ^
-                                                     ^g17Pg170G77p17<newcmd
+                    ^      Pg170G7g15 p17+1<           ># \# _1+0\a\ d\0\GA    ^
+                                           ^ p+2\0\0: g17Pg170G77p17<newcmd
+ ^                            $<                                     <
+    "^bfadd"        > 7 >:7g:!#^_ " "v                       disc l8
+   >17G6L0" ddafb"Q!|   ^+1    _ #- #< :0\7p 1+7G08P 2aaa*** > :0\g!#^_    v
+   v                <                                        ^+2_v#QG77G\0:<
+ ^                                       Pg150 A Gg150 G80 p15 +1<
  ^                  <
     bfcmd ex v +2   $#<                               $Q<
    > 2aaa*** > :0\g!| ^                      <                   <
