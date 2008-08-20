@@ -1,9 +1,9 @@
->"NRTS"4#v($$"KCOS"4#v($$"RGNF"4#v(v
-         >    >      >     >     >0 a".stnirpregnif dab/gnissiM">:#,_@
-v       )^#  D^#1L' D^#1A'C^#2C'2Q'<
+>"NRTS"4#v($$"KCOS"4#v($$"RGNF"4#v(         v
+         >    >      >     >     >  >0a".st" "nirpregnif dab/gnissiM">:#,_@
+v       )^#  D^#1L' D^#1A'C^#2C'2Q'C^#2S'2Z'<
  Some state initialization
-> 002aaa***p v
-v            <
+> 002aaa***p 0a- >:0\0\p v
+v              $_^#!: +1 <
  Save settings like IP and cmd char                v 0*aa0)S+*aaa0**aaa*aa" "<
 >  f2P  41p  #vIv                                  > 0"89b.tognuf"#@i$$$$     v
 v G1fP1f   p10>#<0a".sserdda PI dilavnI">:#,_@       reload clear loop
@@ -77,22 +77,211 @@ v             <      v"Pong send failed."a0<
                 v              _ d-if
                   build reply prefix
  ^_v#-g14g70 <  >0": "06GA0" GSMVIRP"A v
-     cmdchk  ^                P30 p16N <
+     cmdchk  ^            P30 p17p16:N <
  ^                 <
 
      actual command-character commands
- ^                         <         <  < <        <
-    "^reload"        >04g!#^_f2G14GQ#^_    "SYOT"4#^(                        ^
-   >17G6L 0"daoler"Q!|   prefix check   ^W^#   g12\3\0+bg16P3g16"Reloaded."ad0<
-   v                 <
- ^                      <         < <
-    "^raw"        >04g!#^_f2G14GQ#^_ 57GN51p03P 51g:d\3p1+:a\3p1+ v
-   >17G4L0" war"Q!|                   >    >0a".deliaf dnes waR"   >:#,_@
-   v              <                 ^_^#!-W^#            g12\3\0: <
- ^                       <         <         <                     <
-    "^code"        >04g!#^_f2G14GQ#^_"RBUS"4#^( 0"R0"67GA08P 080C )^
-   >17G5L0" edoc"Q!|
-   v               <
+ ^                       <         <  < <        <
+    "^reload"      >04g!#^_f2G14GQ#^_    "SYOT"4#^(                          ^
+   >17G 0"daoler"Q!|   prefix check   ^W^#     g12\3\0+bg16P3g16"Reloaded."ad0<
+   v               <                                                     v<fail:
+ ^                      <         < <                                    $Wv<v <
+    "^raw"        >04g!#^_f2G14GQ#^_ 57GN51p03P 51g:d\3p1+:a\3p1+ v      v<+13 \
+   >17G4L0" war"Q!|                   >    >0a".deliaf dnes waR"   >:#,_@ #0pp d
+   v              <                 ^_^#!-W^#            g12\3\0: <       g\31 :
+ ^                       <         <         <                     <     <13\+ g
+    "^code"        >04g!#^_f2G14GQ#^_"RBUS"4#^( 0"R0"67GA08P 080C )^      2\a: 1
+   >17G5L0" edoc"Q!|                                                      ^<^< 6
+   v               <                                                          >^
+
+    "^help"      >0"]txet[ dda/tes/teg 9-0 rts"41g" ;fb=gnal ;]dnammoc[ wo"v
+   >17G0"pleh"Q>!| v "g> <code>; "g14"def <command> <lang> <code>; "g14"sh"<
+   v             < > "nal<"41g                             N51p61g3P61g51g+61p ^
+
+    "^str"        >67g" "-!#v_> >   >0"]txet[ dda/tes/teg 9-0 rts"41gv
+   >17G4L0" rts"Q!|  v-0'g75< $ $   $                      v"Usage: "<
+   v              <  >     :9`|                            >N51p61g:51g+61p3P ^
+                              >:0\`#^_a- 7>:7g:" "-#v_$ v
+ ^                >$            ^v p800 $_^#!   \+1\<
+    v_v#Q"set"0G77 _v#Q"get"0G77 <        P80G7+1 p7\0: <
+    >7 7G0"dda"Q  | >                     >:0\g!#v_  0\G   >N51p 61g:51g+61p3P^
+      >51p08G051gP 0" :teS"61g:5+61p3P 51g^      >0".ytpmE"^
+                  >:51p 0\GNe1p 051gP 08Ge1g51gP 0".deddA"61g:6+61p3P         ^
+
+ ^                                           <                                 |
+    "^bf"        >           61g71p 0480 vv                                    <
+   >17G3L0" fb"Q!| vp7\0:_v#!-!'_v#:g7:<4<          vp3\a:+1p3\d:g16<         |#
+   v             < >1+ v  >          1+^            >1+0\3\21g#vW$v |-g17g16  <
+    v              p15 <        $<           ^                 <  < <         #
+     v g8080                              <
+ ^                          <<
+      "^show"       > 2aaa*** 57g:#v_$>:0\g#v_$                              0^
+   >  17G4L0"wohs"Q!|       #| -" "<  ^ +2 <>:0\" "\0\GAN51p v
+   v                <    >2+ >:0\G67GQv    ^ p16+g15g16P3g16 <
+                         ^ _^#g\0:    _ 1+:0\g #v_e1p 1> :e1gg0\ jvvvvvvv
+ ^                                              <      +          >        $$0^
+                                                       1           ''''''
+                         > 61g:51g+61p3P >             ^           >+[].,
+                         ^   p15NZgg1e: _^#g15 +1 P3p16+1:g16 p15<0  <<<<
+                                                                 ^1<<
+                               v                              $<
+      "^def"        >15>:7g:#v_>$$$0">edoc< >gnal< >dnammoc< fed" 41g" :egas"v
+   >  17G4L0" fed"Q!|        >  " "-#v_:0\7p1+57G08P:>:7g:#v_$ ^ vP3g16p15NU'<
+   v                <  ^+1           <            >1+^           >61g51g+61p f^
+               v\0:_v#g\0:< ***2aaa P90G7\+1p7\0:_^#  !-" "<                   |
+               G    >       :51p08G051gP v > :0\0\p:0\1\p      ^ v"Defined."0$ <
+               >08GQ!#v_2+^ v p\0\0+2:   <                       >61g3Pv       #
+                      >     > 1+  09G0"fb"Q|                     v+8g16<       -
+       v                          0 p\0\0: <                     >61p        1^1
+         code URL handlers hook in here                                        :
+       >e1p\v
+       v    <
+
+         "str:X"       >:4+7GV:0\`!#v_  > $ 0".LRU :rts daB"61g:d+61p3P $$$$ f^
+       > :7G4L0":rts"Q!|            >:9`|
+       v               <
+        v              P7g15G\0-a\p15:\ <
+
+       >>\v
+    v  g1e< finished with URL handlers, restore args
+ ^
+      defines                                  $
+   >  1>:7g:" "-#v_$:0\7p1+>51p 2aaa*** >:0\g!#^_ :0\ v
+       ^+1       _         ^            ^+2 _v#QG71G  <
+     v                            g\0: \0 +1 <
+
+      PROG EXECS:
+
+      exec prog-copy if not at line 8 (maybe check lang)
+     >\:8-!#v_:e1p 0\g08p 1> ::e1gg: !#v_\8p v
+     v    <$<              ^+1p8\gg1e::   +1 <
+     :      ^                       p8\<
+     !
+     #
+     >$ 2aaaaa*****81p 88+:*91p aaa**:a1p >1-:0\v
+     |bf exec v10                       $_^#!:p9<
+      v\+1\g8:<+1  p18-1_v#:g18 <
+      j                  >$$$     0"!emit fo tuo... " 61g3P 61g88++61p        ^
+      >$$                                                                     ^
+      >:8gb1p\b1g+a1g%\         ^  <>      ret^
+      >:8gb1p\::9gb1g+91g%\9p\  ^  +-
+      >\:9g v >\                ^  [
+     $>\:9g!>#^_\8g             ^  ]    > $$$$ 0"... " 61g3P 61g4+61p         ^
+     $>\:9g:84*\`  #v_  >61g:1+6 1p:ff*`|   out
+     $>\:51g:7g:#v_v>$'.^>\9p\  ^  \ p3 <   in
+     $           > \1+51p^
+ ^   <             >$    ^
+
+      PROG PREPS:
+    :
+    !>$ 88+:*91p v
+    # v p1a**aaa <             v$$       <
+    >^>e1p:0\> :7g :#v_$$!#v_  >$0".][ dehctamsiM" 61g3P 61ge+61p            $f^
+    |bf prep         >:'[- #v_$\1+\v     #
+                            >']-#v_ \:#v_^
+             ^                 +1< <\-1<
+              v p181 pg1e00<            v>#                            v#<
+      >      #v #+ #1                  #<^#<p18+2g18 pg1e+1g18 pg1eg18 <
+              > :7g :#v_     v
+        parsed        >:'!-!#v_ >:'<-#v_$1\>:1+7g'<-!#v_\a1g%a1g\-v
+        v         pg1eg180 $$<             ^    +1\+1\<
+                                      >:'>-#v_$1\>:1+6g'>-!#v_\v  <
+          v-\g19%g19\_v#--'g7+1:<\1$_v#!--':<    ^    +1\+1\<  >a1g% 1 ^
+        # > v         >\1+\1+   ^        >     >     >   >             ^
+      ^2%g19<\_v#-+'g7+1:<\1$_v#!-+':<
+        1      >\1+\1+   ^    >:'[-#v_$03^>:'.-#v_$05^>06^
+        >:e1gg:#v_$$              v >:']-#^_$04^>',-!#^_                 ^
+        ^+2_v#-3<                 >                                            ^
+            >  ::1\>2+:e1gg:3-!#v_4-#v_\1-:#v_v
+    $   +          ^       \+1\$<v   <     \< $
+    $   2          ^             < v   p1b:+1 <
+    $   ^       pg1eg1b+1: pg1e+1\ <
+ ^  <
+
+fungespace storage:
+ (*,0): data packet storage
+ (*,1): misc. variables
+  (0,1): server IP address
+  (1,1): often data packet length
+  (2,1): server socket
+  (3,1): at message-splitting, start of current command/option
+  (4,1): command character
+  (5,1): temp
+  (6,1): privmsg reply packet prefix len
+  (7-10,1): temp
+  (15-,1): bot's nickname
+ (*,2): socket message-splitting vars
+  (0,2): start of message
+  (1,2): end of message
+  (15-,2): owner prefix
+ (*,3): current raw irc message to handle/also reply packet
+ (*,4-x): parsed irc message
+  (0,4): 1 if prefix, 0 if not
+  (1-x,4): the prefix string if (0,4) is 1
+  (0,5): amount of command options, 0..15
+  (1-x,5): command string (always)
+  (*,6-x): command options, depending on amount
+
+code interpretation:
+ column 5 is used to go to program prep: stack: retaddr src_x dst_y lang
+ returns via column 80 with stack popped      (src_y=7, dst_x=0)
+ column 6 is used to go to program exec: stack: retaddr org_y lang
+ returns via column 79  (copies prog to y=8 if org_y != 8)
+ (5,1): input string pointer (x, y=7)
+ (6,1): reply packet current length
+ (7,1): reply packet initial length for checking
+ (e,1): temp storage for y for progcopy/progprep
+ brainfuck bytecode:
+  two-cell opcodes: first cell op, second arg. ops:
+   0: end program (no arg)
+   1: add arg (modulo 1000) to bfarray pointer - used for <>
+   2: add arg (modulo 256) to cell value - used for +-
+   3: jump to arg if cell zero - used for [
+   4: jump to arg if cell nonzero - used for ]
+   5: output cell (arg dummy) - used for .
+   6: input cell (arg dummy) - used for ,
+ brainfuck exec:
+  (8,1): cycle limit
+  (9,1): 256 - used in % for cell values
+  (a,1): 1000 - used in % for bfarray locs
+  top of stack (usually): input prog pointer (x, y=8)
+  second on stack: data array pointer (x, y=9)
+ brainfuck prep:
+  in pseudo:
+   - check that [] match
+   - convert instructions to bytecode with [] args missing
+   - scan bytecode and write targets to all [] pairs
+  (8,1): output program position
+
+brainfuck interp uses:
+ (5,1): input string position (x, y=7)
+ (6,1): output message position (x, y=3)
+ (7,1): output message start (to check if any; +2 for crlf)
+ (8,1): cycle count for limit
+ (9,1): 256; for modulo
+ (a,1): 255: for modulo
+ top of stack (at start): input program position (x, y=7)
+ second on stack: input data array position (x, y=8)
+
+bfcmd data block:
+ (0,2000) base
+ two rows per registered command
+ first row has zero-terminated command name
+ second row has corresponding brainfuck program
+
+--- this code block prints out parts of the IRC message         ---
+--- if you put it at the point where the message has been split ---
+
+> 04g!#v_ 0" :xiferP">:#,_$ 14G>:#,_$ a, v
+v      <                                 <
+> 0" :dnammoC">:#,_$ 15G>:#,_$ a, v
+   v1 $_,#! #:<"arguments:"0.g50  <
+   >   :05g` #v_ "' ",,  v
+   ^+1,''$_,#! #:<G\0+5: <
+ ^         ,a <
+
+--- old brainfuck interpreter kept here for reference for a while ---
+
                              >$1-     v
     "^bf"        > 4 >:7g:#v_^  >:0\7p>1+51p 081p 88+:*: 91p 1-a1p v
   >>17G3L0" fb"Q!|         >'!-!|       v8\0:-1< **aaa  p17+2g16   <
@@ -140,58 +329,3 @@ v             <      v"Pong send failed."a0<
                     > :0\G N51p 17GN51g-!#v_" "51g1+7g-#^_ 51gLQ#^_ v
   ^                             <         >Q#^_    0\v
   ^P80 P7g15G80p15+1 p7\!':NG70_^# P74G\0 P71"bf "0+1<\1 P80G7+2g15 <
-
-
-
-
-
-fungespace storage:
- (*,0): data packet storage
- (*,1): misc. variables
-  (0,1): server IP address
-  (1,1): often data packet length
-  (2,1): server socket
-  (3,1): at message-splitting, start of current command/option
-  (4,1): command character
-  (5,1): temp
-  (6,1): privmsg reply packet prefix len
-  (7-10,1): temp
-  (15-,1): bot's nickname
- (*,2): socket message-splitting vars
-  (0,2): start of message
-  (1,2): end of message
-  (15-,2): owner prefix
- (*,3): current raw irc message to handle/also reply packet
- (*,4-x): parsed irc message
-  (0,4): 1 if prefix, 0 if not
-  (1-x,4): the prefix string if (0,4) is 1
-  (0,5): amount of command options, 0..15
-  (1-x,5): command string (always)
-  (*,6-x): command options, depending on amount
-
-brainfuck interp uses:
- (5,1): input string position (x, y=7)
- (6,1): output message position (x, y=3)
- (7,1): output message start (to check if any; +2 for crlf)
- (8,1): cycle count for limit
- (9,1): 256; for modulo
- (a,1): 255: for modulo
- top of stack (at start): input program position (x, y=7)
- second on stack: input data array position (x, y=8)
-
-bfcmd data block:
- (0,2000) base
- two rows per registered command
- first row has zero-terminated command name
- second row has corresponding brainfuck program
-
---- this code block prints out parts of the IRC message         ---
---- if you put it at the point where the message has been split ---
-
-> 04g!#v_ 0" :xiferP">:#,_$ 14G>:#,_$ a, v
-v      <                                 <
-> 0" :dnammoC">:#,_$ 15G>:#,_$ a, v
-   v1 $_,#! #:<"arguments:"0.g50  <
-   >   :05g` #v_ "' ",,  v
-   ^+1,''$_,#! #:<G\0+5: <
- ^         ,a <
