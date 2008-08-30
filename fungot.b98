@@ -1,8 +1,8 @@
 v load permanent fingerprints and remap            v 0*aa0)S+*aa20**aaa*aa" "<
 >"LLUN"4#v($$v                                     > 0"89b.tognuf"#@i$$$$     v
 v        ># #<0a".detroppus ton LLUN">:#,_@              (^reload)
->"GNIF"4#v(v
-v        >#<0a".detroppus ton GNIF">:#,_@
+>"GNIF"4#v($$v
+v        ># #<0a".detroppus ton GNIF">:#,_@
 >"NRTS"4#v($$'S'UZv
 v   ZQ'C'>#      #<0a".detroppus ton NRTS">:#,_@
 >"KCOS"4#v($$v
@@ -16,8 +16,8 @@ v -a0 p***aaa200        <) >#  ># >#    >#     #<   >0a".dab "v
 >  >:0\0\p v  defs    v   _^#:G^#g 15p1e :<-a0 p15<   v"State"<
 v$_^#!: +1 <          > 1-I0e1gB $ 1+ :   |           >:#,_51gC@
 v)        Cg15 p\0\0 $$$>#        ^#<000< >$2aaa***v
->'G'KX'P'BX'L'IX)v   v:G^#Bg1e0I-1 _^#:G^#g15 p1e: < +2<
-v                <   >!#^_1-IV0e1g1+:e1pp$ 1>: v       $
+>'G'KX'P'BX'L'IXv    v:G^#Bg1e0I-1 _^#:G^#g15 p1e: < +2<
+v               <    >!#^_1-IV0e1g1+:e1pp$ 1>: v       $
                >1+:51g#vG:!#v_1-IV\$\e1gp 1+^
                |  gg1e: pg1e \$\VI-1_v#:Gv#g15 <
                        >    >        >   >          ^
@@ -25,6 +25,10 @@ v                <   >!#^_1-IV0e1g1+:e1pp$ 1>: v       $
  save settings from the loader
 >  f2P  41p  #vIv
 v G1fP1f   p10>#<0a".sserdda PI dilavnI">:#,_@
+
+ non-persistent state init
+> 000f-p 010f-p v
+v               <
 
  Build initial login packet at (0,0)
 >0" KCIN"00PN5+11p50P11g:d\0p1+:a\0p1+11p0ad   v
@@ -90,33 +94,82 @@ v             <      v"Pong send failed."a0<
  ^              <               <                                   <
   privmsg!
 > 15G0"GSMVIRP"Q| parse privmsg   target/prefix for reply
-                >06g'#-!#v_ 04g!|  v+1           <    > >           ^
-                v        <p4\!'<> 1>:4g:!#v_ '!- |           privmsg print
-                               |  P60 G41 <1p4\0:<     v           _^#-g17g16  <
-                v              _ d-if                 $> 61g:d\3p1+: a\3p1+ v
-                  build reply prefix                  ^W^#          g12\3\0 <
+                >06g'#-!#v_ 04g!|  v+1           <  > >             ^
+                v        <p4\!'<> 1>:4g:!#v_ '!- |v1 6 <     privmsg print
+                               |  P60 G41 <1p4\0:<>p v_^#`g16:*2*ff_^#-g17g16  <
+                v              _ d-if               $># $61g:d\3p1+: a\3p1+ v
+                  build reply prefix                ^W^#            g12\3\0 <
    v_v#!-g14 <  >0": "06GA0" GSMVIRP"A v
       cmdchk ^g70         P30 p17p16:N <
 
       non-command privmsg handling
       catch-all own-name hook
-     >                                                                         ^
- ^             <
-     >f1G07GF!#^_>_ 0"!iH"61g:3+61p3P                                          ^
+
+
+                         looptest
+                                  
+                    vP-f01G41   ># 0#    v#         <
+                     >10f-G14GQ#^_00f-g1+>:00f-p3`!#^_61g71p                   ^
+                     $         >$)'G'KX'P'BX                                   ^
+ ^             <     XB'P'XK'G'        <)<                <Cg17          $<
+     >f1G07GF!#^_>_v>'G'KX'P'BX"ELIF"4#^( 0800"nib.ledom"#^O71p 882**e1p01-v
+      v:g4:<1_v#g40<           #   >#v   ^# p9\2+1_v#`*ff:g18 < p180p901p9:<
+     v_$$    v>     ^^ P3p16+g< <    v   _v#! -2g9 <          ^            <
+     '       >0':14GAN51p61g:51 ^         >71g00#vS$81gv                  0
+     !  >1+^ p       >                           >        >      >  > >   ^
+     >-#^_0\4^ >    #$             ^     v       p15g9:<-1   <
+         v p17O^#"tokens.bin"0080Cg17<    >:!#v_   71g\0\#^S$^
+         > 0 > :9g:2- #v_$$71gC^     ^p9+  <         pickword:
+      >1p3B1+^                     >281g1  ^  >$$ 71g091gc1g8*+ #^S5 #^R$v
+      ^6+g15:g16 p15N <                 v  0<  v0<  v+1/6g18_v# g80      <
+                                 v_^#!`+<  1?v#<4?v#<         
+                                        ^  2<  ^8<
+                                 0      ^  3 < ^c <
+                                 c      >  0v      vc0       <>     ^
+                                 > \4*#v?  1>+\1-:#v_$ 18ge1g* 28g+e 1g*v  p
+                                      v<>  2^        vp15%+g84 *g1e+ g83<  9
+                                 ^    >#<  3^                              p
+                                 >51g\-#^  5# 1# p#< > 71g 8 #^R    $   v  1
+                                 ^_v#!`g1  5:+g87*g1e+g86*g1e+g85*g1eg84<  8
+                                   >$ 08g  e1g*18g+e1g*28g+e1g*38g+  81g1+:^
+
+                      ^          <                                    <
+                  >  ^                         0SE":,)'..!f"('?/s
+                       >:98 +`#v_      0\     jvvvvvvvvvvvvvvvvvv
+               v S^#*4\0\g1 7\0< ^ " fno"  "rd"<                >"): "^
+               >4#^R18ge1g* 28g+v^              <<             >'/    ^
+            vg80 S^#\0 +g83 *g1e<^              "'<           >'?     ^
+            >:51p#^R$ 51gv       ^               :'<         >"' "    ^
+                 v  :-1  <       ^                ,'<       >"( "     ^
+                 > 8g\ :#^_ $" " ^                 )'<     >'"" "     ^
+                                 ^                 "'"<   >"(: "      ^
+                                 ^                   .'< >'!          ^
+                                                        >"..."        ^
+
+                           >$     >                                 ^ <
+      v3*g1e+g82*g1e+g81*g1eg80 $R^#4g17 <^   <                          <
+      >8g+:c1p1-b1p0a1p71g#^L91p$ > a1gb1g`#v_ 71g 0 a1gb1g+2/ 8*91g+#^Sv
+             >                    ^         >0^                         8
+       cur>  ^ p1b-1/2+g1bg1a $_v#`g15: +g83*g1e+g82*g1e+g81*g1eg80 $R^#<
+                                >51g\`#v_ 48ge1g*58g+e1g*68g+e1g*78g+    ^
+       cur<  ^ p1a+1/2+g1bg1a          <   ^match
+
+
+
 
      actual command-character commands
  ^                       <         <  < <        <
     "^reload"      >04g!#^_f2G14GQ#^_    "SYOT"4#^(                          ^
    >17G 0"daoler"Q!|   prefix check   ^W^#     g12\3\0+bg16P3g16"Reloaded."ad0<
    v               <                                                          >^
- ^                      <         < <                                           
-    "^raw"        >04g!#^_f2G14GQ#^_ 57GN51p03P 51g:d\3p1+:a\3p1+ v             
-   >17G4L0" war"Q!|                   >    >0a".deliaf dnes waR"   >:#,_@       
-   v              <                 ^_^#!-W^#            g12\3\0: <             
- ^                       <         <         <                     <            
-    "^code"        >04g!#^_f2G14GQ#^_"RBUS"4#^( 0"R0"67GA08P 080C )^            
-   >17G5L0" edoc"Q!|                                                            
-   v               <                                                          >^
+ ^                      <         < <
+    "^raw">v    >  04g!#^_f2G14GQ#^_ 57GN51p03P 51g:d\3p1+:a\3p1+ v
+   >17GN3`|>4L0" war"v                >    >0a".deliaf dnes waR"   >:#,_@
+   v   P51<0   _^#Q  <              ^_^#!-W^#            g12\3\0: <
+ ^                       <         <         <                     <
+    "^code">v    >  04g!#^_f2G14GQ#^_"RBUS"4#^( 0"R0"67GA08P 080C )^
+   >17GN4` |>5L0" edoc"v
+   v    P51<0   _^#Q   <
  ^                    <  <          <                  )<
     "^save"     >04g!#^_v  >"GNIF"4#^('G'KX'P'BX"ELIF"4#^(             001 v
    >17G0"evas"Q!|v G2f  <   vPv#AK\0\a\0\g15:<-a0 p15Ov#"data/fungot.dat"0 <
@@ -145,23 +198,27 @@ v             <      v"Pong send failed."a0<
     >7 7G0"dda"Q  | >                     >:0\g!#v_  0\G   >N51p 61g:51g+61p3P^
       >51p08G051gP 0" :teS"61g:5+61p3P 51g^      >0".ytpmE"^
                   >:51p 0\GNe1p 051gP 08Ge1g51gP 0".deddA"61g:6+61p3P         ^
-
- ^                                           <                                 |
-    "^bf"        >           61g71p 0480 vv                                    <
-   >17G3L0" fb"Q!| vp7\0:_v#!-!'_v#:g7:<4<          vp3\a:+1p3\d:g16<         |#
-   v             < >1+ v  >          1+^            >1+0\3\21g#vW$v |-g17g16  <
-    v              p15 <        $<           ^                 <  < <         #
+                                                        >          61v
+ ^                                           <       v$_^#`g16:*2*ff<p         |
+    "^bf"        >           61g71p 0480 vv          >#           v#           <
+   >17G3L0" fb"Q!| vp7\0:_v#!-!'_v#:g7:<4<        vp3\a:+1p3\d:g16<  <        |#
+   v             < >1+ v  >          1+^          >1+0\3\21g#vW$v   |-g17g16  <
+    v              p15 <        $<           ^               <  <   <         #
      v g8080                              <
- ^                          <<
+ ^                   <       <
       "^show"       > 2aaa*** 57g:#v_$>:0\g#v_$                              0^
-   >  17G4L0"wohs"Q!|       #| -" "<  ^ +2 <>:0\" "\0\GAN51p v
-   v                <    >2+ >:0\G67GQv    ^ p16+g15g16P3g16 <
+   >  17G4L0"wohs"Q!|^     $<| -" "<  ^ +2 <>:0\" "\0\GAN51p v
+   v                <    >2+ >:0\G67GQv    ^ p16+g15g16P3g16 <     >+
                          ^ _^#g\0:    _ 1+:0\g #v_e1p 1> :e1gg0\ jvvvvvvv
  ^                                              <      +          >        $$0^
-                                                       1           ''''''
-                         > 61g:51g+61p3P >             ^           >+[].,
-                         ^   p15NUgg1e: _^#g15 +1 P3p16+1:g16 p15<0  <<<<
-                                                                 ^1<<
+                              > 61g:51g+61p3P      v   2           $$''''
+                              ^ p15 NU    <        >   ^             [].,
+                     > > >61g:1+61p3P :1-#^_$      ^ P3p16+1:g16 <   <<<<
+                     - < ^ >'<                                     01
+                     ' ' ^+'_^#g150_v#!`p1c:<**288_v#g15:gg1e+1:p15<<
+                     ^_^#g150-\*2g1c<       ^**5aa <
+
+
                                v                              $<
       "^def"        >15>:7g:#v_>$$$0">edoc< >gnal< >dnammoc< fed" 41g" :egas"v
    >  17G4L0" fed"Q!|        >  " "-#v_:0\7p1+57G08P:>:7g:#v_$ ^ vP3g16p15NU'<
@@ -266,6 +323,18 @@ fungespace storage:
   (1-x,5): command string (always)
   (*,6-x): command options, depending on amount
 
+babble generator:
+ (5,1): short-time temp
+ (7,1): model/token file handle
+ (8,1): last output token generated
+ (9,1): bsearch table file offset (ret)
+ (a,1): bsearch min idx
+ (b,1): bsearch max idx
+ (c,1): bsearch entry amount (ret)
+ (e,1): constant 256
+ (*,8): I/O buffer for file ops
+ (*,9): generated token stream
+
 code interpretation:
  column 5 is used to go to program prep: stack: retaddr src_x dst_y lang
  returns via column 80 with stack popped      (src_y=7, dst_x=0)
@@ -323,53 +392,3 @@ v      <                                 <
    >   :05g` #v_ "' ",,  v
    ^+1,''$_,#! #:<G\0+5: <
  ^         ,a <
-
---- old brainfuck interpreter kept here for reference for a while ---
-
-                             >$1-     v
-    "^bf"        > 4 >:7g:#v_^  >:0\7p>1+51p 081p 88+:*: 91p 1-a1p v
-  >>17G3L0" fb"Q!|         >'!-!|       v8\0:-1< **aaa  p17+2g16   <
-   v             <   ^        +1<       >p:!#v_^
-     v 40                                   $<0 p740  $<           <
-     > :0\ > :7g :#v_$$!#v_ >$0ad".][ dehctamsiM" 61g3P   61ge+61p ^
-     v                   <  ^       $$<
-                   >:'[-#v_$\1+\v
-                         >']-#v_ \:#v_^
-           ^                +1< <\-1<
-               >0ad"!emit fo tuo... "61g3P 61gf1++61p $^
-     v +1     _^#!` *****aaaaaa p18:+1g18 <     < <           <  <       <
-     > :7g :!#v_ :'+-#v_$ \::8g1+91g%\8p\ ^                  p 3\ a+1p3\d <
-     v+2g16$$$<       >:'--#v_$ \::8ga1g+91g%\8p \^                 +crlf :
-     >::71g-!#v_0\3\21g v   >:'>-#v_$ \1+aaa**%\^                         g
- ^          $$<_v#!-Wv# <         >:'<-#v_$ \aaa**1-+ aaa**%\ ^           1
-       no out^  >    > v v_v#-,':_v#-.':<     > v    +<v\ P3g16"  ..."0<  6
-      v"BF W failed."a0< : $      >$ \:8g:ff+`| >61g3p \61g1+:61p ff*`#^_ ^
-      >:#,_@             ' >\:51g7g:#v_\8p\  v>$fff1++^> 61g4+61p :1+0\7p ^
-      v \1 \_v#g8:\<     [ v+1g15\p8\<       >                   ^
-             >\   v      - >51p \>\          ^   >']-#v_\1-:#v_$ ^
-      >1-:7g:']-v  |!-]' _$ \:8g#^_\ 1\>1+:7g:'[-|           \
-      ^   \+1\$<!  v                   ^    \+1\$<
-      ^      < ^_v                     ^              <      <
-             |-['<>>  >                                          ^
-             >\1-:#v_$^             >0":deretsigeR"v               v15g1630P3g1<
-      ^           \<                 vp16+bg16P3g16<               >g+21g #vWv 6
-                                            > :0\G 61g :" "\3p 1+:v            p
-    "^bfcmd"       > 2aaa*** 67g#v_ ^> :0\g#^_ $61g:d\3p1+ :a\3p1+ 0\3\21g#vWv 1
-   >17G5L0"dmcfb"Q!|                 ^+2 _ #!<p16+g16NG\0: P3 p16 <          $ 5
-   v               <v    _#                                                < < N
- ^                  <d-if|-" "g76<>$$0                >\  >:0\g#v_\#v_$0ad".oN"^
-                         >7>:7g:!#^_" "-#v_:0\7p1+51p1^>2+^
-                           ^+1           <       oldcmd|QG77G\0:<
-                    ^      Pg170G7g15 p17+1<           ># \# _1+0\a\ d\0\GA    ^
-                                           ^ p+2\0\0: g17Pg170G77p17<newcmd
- ^                            $<                                     <
-    "^bfadd"        > 7 >:7g:!#^_ " "v                       disc l8
-   >17G6L0" ddafb"Q!|   ^+1    _ #- #< :0\7p 1+7G08P 2aaa*** > :0\g!#^_    v
-   v                <                                        ^+2_v#QG77G\0:<
- ^                                       Pg150 A Gg150 G80 p15 +1<
- ^                  <
-    bfcmd ex v +2   $#<                               $Q<
-   > 2aaa*** > :0\g!| ^                      <                   <
-                    > :0\G N51p 17GN51g-!#v_" "51g1+7g-#^_ 51gLQ#^_ v
-  ^                             <         >Q#^_    0\v
-  ^P80 P7g15G80p15+1 p7\!':NG70_^# P74G\0 P71"bf "0+1<\1 P80G7+2g15 <
