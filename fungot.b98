@@ -159,19 +159,19 @@ v             <      v"Pong send failed."a0<
 
      actual command-character commands
  ^                       <         <  < <        <
-    "^reload"      >04g!#^_f2G14GQ#^_    "SYOT"4#^(                          ^
+    "reload"       >04g!#^_f2G14GQ#^_    "SYOT"4#^(                          ^
    >17G 0"daoler"Q!|   prefix check   ^W^#     g12\3\0+bg16P3g16"Reloaded."ad0<
    v               <                                                          >^
  ^                      <         < <
-    "^raw">v    >  04g!#^_f2G14GQ#^_ 57GN51p03P 51g:d\3p1+:a\3p1+ v
+    "raw" >v    >  04g!#^_f2G14GQ#^_ 57GN51p03P 51g:d\3p1+:a\3p1+ v
    >17GN3`|>4L0" war"v                >    >0a".deliaf dnes waR"   >:#,_@
    v   P51<0   _^#Q  <              ^_^#!-W^#            g12\3\0: <
  ^                       <         <         <                     <
-    "^code">v    >  04g!#^_f2G14GQ#^_"RBUS"4#^( 0"R0"67GA08P 080C )^
+    "code" >v    >  04g!#^_f2G14GQ#^_"RBUS"4#^( 0"R0"67GA08P 080C )^
    >17GN4` |>5L0" edoc"v
    v    P51<0   _^#Q   <
  ^                    <  <          <                  )<
-    "^save"     >04g!#^_v  >"GNIF"4#^('G'KX'P'BX"ELIF"4#^(             001 v
+    "save"      >04g!#^_v  >"GNIF"4#^('G'KX'P'BX"ELIF"4#^(             001 v
    >17G0"evas"Q!|v G2f  <   vPv#AK\0\a\0\g15:<-a0 p15Ov#"data/fungot.dat"0 <
    v            <> 14G Q#^_^>$           1+:#^_$vv_v#gg1e:$Pv#AUgg1e\a\0\g15 <
      v       B80"Fail: "<S'0$C< v!g\0:< ***aaa2 <>1 +:51g\0\ a\e1ggUA#vP$v   :
@@ -181,17 +181,17 @@ v             <      v"Pong send failed."a0<
      >                                       )'G'KX'P'BX)08GN51p61g:51g+61p3P ^
 
 
-    "^help"      >0"]txet[ dda/tes/teg 9-0 rts"41g" ;N:rts/txet=edoc ,fb=g"v
+    "help"       >0"]txet[ dda/tes/teg 9-0 rts"41g" ;N:rts/txet=edoc ,fb=g"v
    >17G0"pleh"Q>!| v "ef <command> <lang> <code>; "g14"show [command]; lan"<
    v             < > "d"41g" ;>edoc< >gnal<"41g           N51p61g3P61g51g+61p ^
                  v
-    "^bool"     >?>0".oN" 61g:3+61p3P>                                        ^
+    "bool"      >?>0".oN" 61g:3+61p3P>                                        ^
    >17G0"loob"Q!|>0".seY" 61g:4+61p3P^
    v            <
 
-    "^str"        >67g" "-!#v_> >   >0"]txet[ dda/tes/teg 9-0 rts"41gv
-   >17G4L0" rts"Q!|  v-0'g75< $ $   $                      v"Usage: "<
-   v              <  >     :9`|                            >N51p61g:51g+61p3P ^
+    "str" >v    >  67g" "-!#v_> >   >0"]txet[ dda/tes/teg 9-0 rts"41gv
+   >17GN3`|>4L0" rts"vv0'g75< $ $   $                      v"Usage: "<
+   v   P51<0   _^#Q  <>-   :9`|                            >N51p61g:51g+61p3P ^
                               >:0\`#^_a- 7>:7g:" "-#v_$ v
  ^                >$            ^v p800 $_^#!   \+1\<
     v_v#Q"set"0G77 _v#Q"get"0G77 <        P80G7+1 p7\0: <
@@ -200,15 +200,15 @@ v             <      v"Pong send failed."a0<
                   >:51p 0\GNe1p 051gP 08Ge1g51gP 0".deddA"61g:6+61p3P         ^
                                                         >          61v
  ^                                           <       v$_^#`g16:*2*ff<p         |
-    "^bf"        >           61g71p 0480 vv          >#           v#           <
-   >17G3L0" fb"Q!| vp7\0:_v#!-!'_v#:g7:<4<        vp3\a:+1p3\d:g16<  <        |#
-   v             < >1+ v  >          1+^          >1+0\3\21g#vW$v   |-g17g16  <
-    v              p15 <        $<           ^               <  <   <         #
+    "bf"  >v    >            61g71p 0480 vv          >#           v#           <
+   >17GN2`|>3L0" fb"vv\0:_v#!-!'_v#:g7:<4<        vp3\a:+1p3\d:g16<  <        |#
+   v   P51<0   _^#Q <>7p v>          1+^          >1+0\3\21g#vW$v   |-g17g16  <
+    v              p15+1 <      $<           ^               <  <   <         #
      v g8080                              <
- ^                   <       <
-      "^show"       > 2aaa*** 57g:#v_$>:0\g#v_$                              0^
-   >  17G4L0"wohs"Q!|^     $<| -" "<  ^ +2 <>:0\" "\0\GAN51p v
-   v                <    >2+ >:0\G67GQv    ^ p16+g15g16P3g16 <     >+
+ ^                       <   <
+      "show">v  >$   2aaa *** 57g:#v_$>:0\g#v_$                              0^
+   >  17GN3`|>4L0"wohs"v ^ $<| -" "<  ^ +2 <>:0\" "\0\GAN51p v
+   v     P51<0 _^#Q    < >2+ >:0\G67GQv    ^ p16+g15g16P3g16 <     >+
                          ^ _^#g\0:    _ 1+:0\g #v_e1p 1> :e1gg0\ jvvvvvvv
  ^                                              <      +          >        $$0^
                               > 61g:51g+61p3P      v   2           $$''''
@@ -218,11 +218,10 @@ v             <      v"Pong send failed."a0<
                      ' ' ^+'_^#g150_v#!`p1c:<**288_v#g15:gg1e+1:p15<<
                      ^_^#g150-\*2g1c<       ^**5aa <
 
-
                                v                              $<
-      "^def"        >15>:7g:#v_>$$$0">edoc< >gnal< >dnammoc< fed" 41g" :egas"v
-   >  17G4L0" fed"Q!|        >  " "-#v_:0\7p1+57G08P:>:7g:#v_$ ^ vP3g16p15NU'<
-   v                <  ^+1           <            >1+^           >61g51g+61p f^
+      "def" >v    >  15>:7g:#v_>$$$0">edoc< >gnal< >dnammoc< fed" 41g" :egas"v
+   >  17GN3`|>4L0" fed"]+1<  >  " "-#v_:0\7p1+57G08P:>:7g:#v_$ ^ vP3g16p15NU'<
+   v     P51<0   _^#Q  <  ^          <            >1+^           >61g51g+61p f^
                v\0:_v#g\0:< ***2aaa P90G7\+1p7\0:_^#  !-" "<                   |
                G    >       :51p08G051gP v > :0\0\p:0\1\p      ^ v"Defined."0$ <
                >08GQ!#v_2+^ v p\0\0+2:   <                       >61g3Pv       #
@@ -232,11 +231,11 @@ v             <      v"Pong send failed."a0<
        >e1p\v
        v    <
 
-         "str:X"       >:5+7g!#v_      >    0".LRU :rts daB"61g:d+61p3P $$$$ f^
-       > :7G4L0":rts"Q!| vg7+4:< >   >$^
-       v               < >'0-:0\`|
-                                 >:9`|
-        v          P7g15G\0-a \p15:\ <
+         "str:">v  >$     :5+7g!#v_      >  0".LRU :rts daB"61g:d+61p3P $$$$ f^
+       > :7GN3`|>4L0":rts"vvg7+4:< >   >$^
+       v    P51<0 _^#Q    <>'0-:0\`|
+                                   >:9`|
+        v            P7g15G\0-a \p15:\ <
 
          "http://srv/path">:7+:>:7g:#v_$$        0".LRU daB"61g:8+61p3P $$$$ f^
        v :7G7L0"//:ptth"Q!| >1+^> :7G 0fP 0\7p v URL parsed
