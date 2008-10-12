@@ -267,10 +267,10 @@ v             <      v"Pong send failed."a0<
       >:8gb1p\::9gb1g+91g%\9p\  ^  +-
       >\:9g v >\                ^  [
      $>\:9g!>#^_\8g             ^  ]    > $$$$ 0"... " 61g1-3P 61g3+61p       ^
-     $>\:9g:84*\`  #v_  >61g:1+6 1p:ff*`|   out
-     $>\:51g:7g:#v_v>$'.^>\9p\  ^  \ p3 <   in
-     $           > \1+51p^
- ^   <             >$    ^
+     $>\:9g:a-:    #v_$  >$'.>   61g:1+61p:ff*`|  out
+     $>\:51g:7g:#v_v>3-!#^_  ^  ^         \ p3 <  in
+     $           > \1+51pv      ^       <
+ ^   <             >$    >91g+91g% \9p\ ^
 
       PROG PREPS:
     :
@@ -335,14 +335,18 @@ babble generator:
  (*,9): generated token stream
 
 code interpretation:
+ langs: 0=bf, 1=underload
+
  column 5 is used to go to program prep: stack: retaddr src_x dst_y lang
  returns via column 80 with stack popped      (src_y=7, dst_x=0)
  column 6 is used to go to program exec: stack: retaddr org_y lang
  returns via column 79  (copies prog to y=8 if org_y != 8)
+
  (5,1): input string pointer (x, y=7)
  (6,1): reply packet current length
  (7,1): reply packet initial length for checking
  (e,1): temp storage for y for progcopy/progprep
+
  brainfuck bytecode:
   two-cell opcodes: first cell op, second arg. ops:
    0: end program (no arg)
@@ -350,8 +354,8 @@ code interpretation:
    2: add arg (modulo 256) to cell value - used for +-
    3: jump to arg if cell zero - used for [
    4: jump to arg if cell nonzero - used for ]
-   5: output cell (arg dummy) - used for .
-   6: input cell (arg dummy) - used for ,
+   5: output cell (arg dummy 1) - used for .
+   6: input cell (arg dummy 1) - used for ,
  brainfuck exec:
   (8,1): cycle limit
   (9,1): 256 - used in % for cell values
@@ -364,6 +368,13 @@ code interpretation:
    - convert instructions to bytecode with [] args missing
    - scan bytecode and write targets to all [] pairs
   (8,1): output program position
+
+ underload does not use a bytecode format, mostly because of ^.
+ underload prep just copies the program
+ underload exec:
+  (8,1): cycle limit again
+  top of stack (usually): input prog pointer (x, y=8)
+  second on stack: underload stack top (x, y=9)
 
 brainfuck interp uses:
  (5,1): input string position (x, y=7)
@@ -379,7 +390,8 @@ bfcmd data block:
  (0,2000) base
  two rows per registered command
  first row has zero-terminated command name
- second row has corresponding brainfuck program
+ second row first cell is language code, 0=bf
+ rest of second row has the bytecode
 
 --- this code block prints out parts of the IRC message         ---
 --- if you put it at the point where the message has been split ---
