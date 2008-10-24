@@ -1,8 +1,6 @@
 v load permanent fingerprints and remap            v 0*aa0)S+*aa20**aaa*aa" "<
->"LLUN"4#v($$v                                     > 0"89b.tognuf"#@i$$$$     v
-v        ># #<0a".detroppus ton LLUN">:#,_@              (^reload)
->"GNIF"4#v($$v
-v        ># #<0a".detroppus ton GNIF">:#,_@
+>"GNIF"4#v($$v                                     > 0"89b.tognuf"#@i$$$$     v
+v        ># #<0a".detroppus ton GNIF">:#,_@              (^reload)
 >"NRTS"4#v($$'S'UZv
 v   ZQ'C'>#      #<0a".detroppus ton NRTS">:#,_@
 >"KCOS"4#v($$v
@@ -11,13 +9,13 @@ v  YL'YA'># #<0a".detroppus ton KCOS">:#,_@
 v     YP'># #<0a".detroppus ton EKCS">:#,_@
 
  initialize funge-space state
->'G'KX'P'BX'L'IX"ELIF"4#v(0000"tad.tognuf/atad"#vOv
+>'G'KZ'P'BZ'L'IZ"ELIF"4#v(0000"tad.tognuf/atad"#vOv
 v -a0 p***aaa200        <) >#  ># >#    >#     #<   >0a".dab "v
 >  >:0\0\p v  defs    v   _^#:G^#g 15p1e :<-a0 p15<   v"State"<
 v$_^#!: +1 <          > 1-I0e1gB $ 1+ :   |           >:#,_51gC@
 v)        Cg15 p\0\0 $$$>#        ^#<000< >$2aaa***v
->'G'KX'P'BX'L'IXv    v:G^#Bg1e0I-1 _^#:G^#g15 p1e: < +2<
-v               <    >!#^_1-IV0e1g1+:e1pp$ 1>: v       $
+>'KY'BY'IYv          v:G^#Bg1e0I-1 _^#:G^#g15 p1e: < +2<
+v         <          >!#^_1-IV0e1g1+:e1pp$ 1>: v       $
                >1+:51g#vG:!#v_1-IV\$\e1gp 1+^
                |  gg1e: pg1e \$\VI-1_v#:Gv#g15 <
                        >    >        >   >          ^
@@ -110,9 +108,9 @@ v             <      v"Pong send failed."a0<
                                   
                     vP-f01G41   ># 0#    v#         <
                      >10f-G14GQ#^_00f-g1+>:00f-p3`!#^_61g71p                   ^
-                     $         >$)'G'KX'P'BX                                   ^
- ^             <     XB'P'XK'G'        <)<                <Cg17          $<
-     >f1G07GF!#^_>_v>'G'KX'P'BX"ELIF"4#^( 0800"nib.ledom"#^O71p 882**e1p01-v
+                     $         >$)'KY'BY                                       ^
+ ^             <     YB'YK'            <)<                <Cg17          $<
+     >f1G07GF!#^_>_v>'G'KZ'P'BZ"ELIF"4#^( 0800"nib.ledom"#^O71p 882**e1p01-v
       v:g4:<1_v#g40<           #   >#v   ^# p9\2+1_v#`*ff:g18 < p180p901p9:<
      v_$$    v>     ^^ P3p16+g< <    v   _v#! -2g9 <          ^            <
      '       >0':14GAN51p61g:51 ^         >71g00#vS$81gv                  0
@@ -170,15 +168,15 @@ v             <      v"Pong send failed."a0<
     "code" >v    >  04g!#^_f2G14GQ#^_0"R0"67GA08P "RBUS"4#^( 080C )^
    >17GN4` |>5L0" edoc"v
    v    P51<0   _^#Q   <
- ^                    <  <          <                  )<
-    "save"      >04g!#^_v  >"GNIF"4#^('G'KX'P'BX"ELIF"4#^(             001 v
+ ^                    <  <                              <
+    "save"      >04g!#^_v  >          'G'KZ'P'BZ"ELIF"4#^(             001 v
    >17G0"evas"Q!|v G2f  <   vPv#AK\0\a\0\g15:<-a0 p15Ov#"data/fungot.dat"0 <
    v            <> 14G Q#^_^>$           1+:#^_$vv_v#gg1e:$Pv#AUgg1e\a\0\g15 <
      v       B80"Fail: "<S'0$C< v!g\0:< ***aaa2 <>1 +:51g\0\ a\e1ggUA#vP$v   :
      v         B80"OK."0  Cg15 $_v    ^+1         $<    v$\ <         <  >1+ ^
                                  >:51g\0\a\0\KA#vP$1+:e1 p:0\g51g\0\a\UA#vP$1^
                         ^                  P'0$C<       <               <
-     >                                       )'G'KX'P'BX)08GN51p61g:51g+61p3P ^
+     >                                       )'KY'BY     08GN51p61g:51g+61p3P ^
 
 
     "help"       >0"]txet[ dda/tes/teg 9-0 rts"41g" ;N:rts/txet=edoc ,fb=g"v
@@ -266,7 +264,7 @@ v             <      v"Pong send failed."a0<
       >:8gb1p\b1g+a1g%\         ^  <>      ret^
       >:8gb1p\::9gb1g+91g%\9p\  ^  +-
       >\:9g v >\                ^  [
-     $>\:9g!>#^_\8g             ^  ]    > $$$$ 0"... " 61g1-3P 61g3+61p       ^
+     $>\:9g!>#^_\8g             ^  ]           >$$$$0"... "61g1-3P61g3+61p    ^
      $>\:9g:a-:    #v_$  >$'.>   61g:1+61p:ff*`|  out
      $>\:51g:7g:#v_v>3-!#^_  ^  ^         \ p3 <  in
      $           > \1+51pv      ^       <
