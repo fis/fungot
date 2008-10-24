@@ -16,9 +16,9 @@ v$_^#!: +1 <          > 1-I0e1gB $ 1+ :   |           >:#,_51gC@
 v)        Cg15 p\0\0 $$$>#        ^#<000< >$2aaa***v
 >'KY'BY'IYv          v:G^#Bg1e0I-1 _^#:G^#g15 p1e: < +2<
 v         <          >!#^_1-IV0e1g1+:e1pp$ 1>: v       $
-               >1+:51g#vG:!#v_1-IV\$\e1gp 1+^
+               >                          1+^
                |  gg1e: pg1e \$\VI-1_v#:Gv#g15 <
-                       >    >        >   >          ^
+                                     >   >          ^
                >                                       ^
  save settings from the loader
 >  f2P  41p  #vIv
@@ -119,7 +119,7 @@ v             <      v"Pong send failed."a0<
          v p17O^#"tokens.bin"0080Cg17<    >:!#v_   71g\0\#^S$^
          > 0 > :9g:2- #v_$$71gC^     ^p9+  <         pickword:
       >1p3B1+^                     >281g1  ^  >$$ 71g091gc1g8*+ #^S5 #^R$v
-      ^6+g15:g16 p15N <                 v  0<  v0<  v+1/6g18_v# g80      <
+      ^6+g15:g16 p15N <                 v  0<  v0<  v+1/3g18_v# g80      <
                                  v_^#!`+<  1?v#<4?v#<         
                                         ^  2<  ^8<
                                  0      ^  3 < ^c <
@@ -168,20 +168,20 @@ v             <      v"Pong send failed."a0<
     "code" >v    >  04g!#^_f2G14GQ#^_0"R0"67GA08P "RBUS"4#^( 080C )^
    >17GN4` |>5L0" edoc"v
    v    P51<0   _^#Q   <
- ^                    <  <                              <
+ ^                    <  <                            >#<$#)<
     "save"      >04g!#^_v  >          'G'KZ'P'BZ"ELIF"4#^(             001 v
-   >17G0"evas"Q!|v G2f  <   vPv#AK\0\a\0\g15:<-a0 p15Ov#"data/fungot.dat"0 <
+   >17G0"evas"Q!|v G2f  <   vPv#AK\0\a\0\g15:<-a0 p15O^#"data/fungot.dat"0 <
    v            <> 14G Q#^_^>$           1+:#^_$vv_v#gg1e:$Pv#AUgg1e\a\0\g15 <
-     v       B80"Fail: "<S'0$C< v!g\0:< ***aaa2 <>1 +:51g\0\ a\e1ggUA#vP$v   :
-     v         B80"OK."0  Cg15 $_v    ^+1         $<    v$\ <         <  >1+ ^
+     v       B80"Fail: "<S'0$C< v!g\0:< ***aaa2 <>                       v   :
+     v         B80"OK."0  Cg15 $_v    ^+1         $<    v$\ <            >1+ ^
                                  >:51g\0\a\0\KA#vP$1+:e1 p:0\g51g\0\a\UA#vP$1^
                         ^                  P'0$C<       <               <
      >                                       )'KY'BY     08GN51p61g:51g+61p3P ^
 
 
-    "help"       >0"]txet[ dda/tes/teg 9-0 rts"41g" ;N:rts/txet=edoc ,fb=g"v
-   >17G0"pleh"Q>!| v "ef <command> <lang> <code>; "g14"show [command]; lan"<
-   v             < > "d"41g" ;>edoc< >gnal<"41g           N51p61g3P61g51g+61p ^
+    "help"       >0"]txet[ dda/tes/teg 9-0 rts"41g" ;N:rts/txet=edoc ,lu/f"v
+   >17G0"pleh"Q>!| v "<command> <lang> <code>; "g14"show [command]; lang=b"<
+   v             < > " fed"41g" ;>edoc< >gnal<"41g        N51p61g3P61g51g+61p ^
                  v
     "bool"      >?>0".oN" 61g:3+61p3P>                                        ^
    >17G0"loob"Q!|>0".seY" 61g:4+61p3P^
@@ -203,18 +203,28 @@ v             <      v"Pong send failed."a0<
    v   P51<0   _^#Q <>7p v>          1+^          >1+0\3\21g#vW$v   |-g17g16  <
     v              p15+1 <      $<           ^               <  <   <         #
      v g8080                              <
+                                                                               |
+    "ul"  >v              v                                                  $ <
+   >17GN2`|>3L0" lu"Q#v_v                                                      #
+   v   P51<0          <                                                        -
+    v              1842 <                                                      2
+     v              g8080 <                                                    :
+
  ^                       <   <
       "show">v  >$   2aaa *** 57g:#v_$>:0\g#v_$                              0^
    >  17GN3`|>4L0"wohs"v ^ $<| -" "<  ^ +2 <>:0\" "\0\GAN51p v
    v     P51<0 _^#Q    < >2+ >:0\G67GQv    ^ p16+g15g16P3g16 <     >+
-                         ^ _^#g\0:    _ 1+:0\g #v_e1p 1> :e1gg0\ jvvvvvvv
- ^                                              <      +          >        $$0^
+                         ^ _^#g\0:    _ 1+:0\g:#v_$e1p1> :e1gg0\ jvvvvvvv
+           not bf v                             <      +          >        $$0^
                               > 61g:51g+61p3P      v   2           $$''''
                               ^ p15 NU    <        >   ^             [].,
                      > > >61g:1+61p3P :1-#^_$      ^ P3p16+1:g16 <   <<<<
                      - < ^ >'<                                     01
-                     ' ' ^+'_^#g150_v#!`p1c:<**288_v#g15:gg1e+1:p15<<
-                     ^_^#g150-\*2g1c<       ^**5aa <
+                  :  ' ' ^+'_^#g150_v#!`p1c:<**288_v#g15:gg1e+1:p15<<
+                  1  ^_^#g150-\*2g1c<       ^**5aa <
+                  -
+ ^             $$ _$ 1\GN51p 61g:51g+61p 3P                                  0^
+                   ul
 
                                v                              $<
       "def" >v    >  15>:7g:#v_>$$$0">edoc< >gnal< >dnammoc< fed" 41g" :egas"v
@@ -222,10 +232,10 @@ v             <      v"Pong send failed."a0<
    v     P51<0   _^#Q  <  ^          <            >1+^           >61g51g+61p f^
                v\0:_v#g\0:< ***2aaa P90G7\+1p7\0:_^#  !-" "<                   |
                G    >       :51p08G051gP v > :0\0\p:0\1\p      ^ v"Defined."0$ <
-               >08GQ!#v_2+^ v p\0\0+2:   <                       >61g3Pv       #
-                      >     > 1+  09G0"fb"Q|                     v+8g16<       -
-       v                          0 p\0\0: <                     >61p        1^1
-         code URL handlers hook in here                                        :
+               >08GQ!#v_2+^ v p\0\0+2:   < ^                <    >61g3Pv       #
+                      >     >1+ 09G0"fb"Q!#v_ 09G0"lu"Q!#v_ ^    v+8g16<       -
+       v                      \ p\0\0: < \0<                     >61p        1^1
+         code URL handlers hook here   ^ \1              <                     :
        >e1p\v
        v    <
 
@@ -252,7 +262,7 @@ v             <      v"Pong send failed."a0<
 
       exec prog-copy if not at line 8 (maybe check lang)
      >\:8-!#v_:e1p 0\g08p 1> ::e1gg: !#v_\8p v
-     v    <$<              ^+1p8\gg1e::   +1 <
+     v    <$<              ^              +1 <
      :      ^                       p8\<
      !
      #
@@ -264,11 +274,52 @@ v             <      v"Pong send failed."a0<
       >:8gb1p\b1g+a1g%\         ^  <>      ret^
       >:8gb1p\::9gb1g+91g%\9p\  ^  +-
       >\:9g v >\                ^  [
-     $>\:9g!>#^_\8g             ^  ]           >$$$$0"... "61g1-3P61g3+61p    ^
-     $>\:9g:a-:    #v_$  >$'.>   61g:1+61p:ff*`|  out
-     $>\:51g:7g:#v_v>3-!#^_  ^  ^         \ p3 <  in
-     $           > \1+51pv      ^       <
- ^   <             >$    >91g+91g% \9p\ ^
+      >\:9g!>#^_\8g             ^  ]           >$$$$0"... "61g1-3P61g3+61p    ^
+      >\:9g:a-:    #v_$  >$'.>   61g:1+61p:ff*`|  out
+      >\:51g:7g:#v_v>3-!#^_  ^  ^         \ p3 <  in
+     :           > \1+51pv      ^       <
+     1             >$    >91g+91g% \9p\ ^
+     -
+     !
+     #
+     >$ ffaa***81p 009p019p 091p v
+     |ul exec                      >0"!kcats fo tuo... " 61g3P61g89++61p      ^
+       v 1                       < ^$                                        <
+       > :8g :#v_$                                                            ^
+       +       >81g1-:81p#v_$$ 0"!emit fo tuo... " 61g3P 61g88++61p           ^
+       1v_v#`0+ *:*dc g19 <
+          > $$ 0"!kcats hcum oot... " 61g:a9++61p3P                           ^
+        > \:0dc*:*-  `#v_$$ 0"!gorp hcum oot... " 61g:99++61p3P               ^
+        v             \<
+        >:'~-#v_$ 91g:9G Na1p 0aP a1g1++9G N :91ga1g2+++0`!#v_0aP0aP         ^
+        v     < v                  P9++1g1bg19Ga0 P9g19 p1b <
+       ^        <
+        >:':-#v_$ 91g9G N :91g1++0`!#v_$0aP                                  ^
+        v     <                      > 1+91g\-:91p9P v
+       ^                                             <
+        >:'!-#v_$ 91g9G N 91g1++ :0`!#v_$$                                   ^
+        v     < v             Pa0 p19 <
+       ^        <
+        >:'*-#v_$ 91g9G N:a1p 91g1++9G N91g2a1g+++0`!#v_0aP0aP               ^
+        v     < v                       P9p19:+1g19 A <
+       ^        <
+        >:'(-#v_$ :1\1+>:8g :#v_$$$ 0"!( detanimretnu... " 61g3P61ga9++61p    ^
+        v     <               >:'(-!#v_')-#v_\1-:#v_v
+                       ^  +1< \+1\$  <              $
+                            ^              <     \<
+       ^          g1a P9p19:-\g19+1N G8+1 p8\0 p1a: <
+
+        >:'a-#v_$ 0') 91g9G N91g1++0`!#v_0aP0aP                              ^
+        v     < v    P9p19:-2g19AA ('0 <
+       ^        <
+        >:'^-#v_$ 91g9G N:a1p 91g1++ :0`!#v_$$                               ^
+        v     <                           >91p 0aP :1+8gb1p v
+       ^                 -1 p8\g1b+1\ P8g1aGa0 p1a: --1g1a: <
+     $
+     $  >'S-!#v_ $ 0"!nsni dab... " 61g3P61gd+61p                             ^
+     $        > 91g9G N 91g1++ :0`!#v_ $$                                    ^
+     $ ^      P3p16+g15:g16p15N p19 <
+ ^   <
 
       PROG PREPS:
     :
@@ -291,10 +342,20 @@ v             <      v"Pong send failed."a0<
         >:e1gg:#v_$$              v >:']-#^_$04^>',-!#^_                 ^
         ^+2_v#-3<                 >                                            ^
             >  ::1\>2+:e1gg:3-!#v_4-#v_\1-:#v_v
-    $   +          ^       \+1\$<v   <     \< $
-    $   2          ^             < v   p1b:+1 <
-    $   ^       pg1eg1b+1: pg1e+1\ <
+        +          ^       \+1\$<v   <     \< $
+    :   2          ^             < v   p1b:+1 <
+    1   ^       pg1eg1b+1: pg1e+1\ <
+    -
+    !
+    #                   v+1                 <
+    >$:1\0\p e1p :1-d1p >::7g \d1g-e1gp :7g#^_$                                ^
+    |ul prep
+    $
+    $
+    $
  ^  <
+
+
 
 fungespace storage:
  (*,0): data packet storage
@@ -370,9 +431,15 @@ code interpretation:
  underload does not use a bytecode format, mostly because of ^.
  underload prep just copies the program
  underload exec:
-  (8,1): cycle limit again
-  top of stack (usually): input prog pointer (x, y=8)
-  second on stack: underload stack top (x, y=9)
+  top of stack: input prog pointer (x, y=8)
+  y=9 is used for the stack
+  y=10 is used for temp. data storage,
+  y=1 is used for variables (standard fungot):
+   9,1: underload stack top
+   a/b/c,1: temp
+  underload stack goes to negative fungespace
+  the stack pointer starts at 0 meaning empty stack,
+  and there must always be a 0 at x=0/1,y=9 for string term.
 
 brainfuck interp uses:
  (5,1): input string position (x, y=7)
