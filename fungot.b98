@@ -26,7 +26,7 @@ v G1fP1f   p10>#<0a".sserdda PI dilavnI">:#,_@
 
  non-persistent state init
 > 000f-p 010f-p v
-v               <
+v      p-+aa000 <
 
  Build initial login packet at (0,0)
 >0" KCIN"00PN5+11p50P11g:d\0p1+:a\0p1+11p0ad   v
@@ -96,7 +96,13 @@ v             <      v"Pong send failed."a0<
                 v        <p4\!'<> 1>:4g:!#v_ '!- |v1 6 <     privmsg print
                                |  P60 G41 <1p4\0:<>p v_^#`g16:*2*ff_^#-g17g16  <
                 v              _ d-if               $># $61g:d\3p1+: a\3p1+ v
-                  build reply prefix                ^W^#            g12\3\0 <
+                  check the ignore list             ^W^#            g12\3\0 <
+
+                > 04g!#v_ "PXER"4#v( 0aa+- >:0\g!#v_:0\G3#vC14G0#vEv
+                v      <          <)             $<      $<
+                                           ^-1F                  <
+ ^                                                          )$FP51$<
+                  build reply prefix
    v_v#!-g14 <  >0": "06GA0" GSMVIRP"A v
       cmdchk ^g70         P30 p17p16:N <
 
@@ -152,33 +158,42 @@ v             <      v"Pong send failed."a0<
                                 >51g\`#v_ 48ge1g*58g+e1g*68g+e1g*78g+    ^
        cur<  ^ p1a+1/2+g1bg1a          <   ^match
 
-
-
+     check for owner-prefix to make it easier for other commands
+   >04g!#v_f2G14GQ#v_v
+   v p150<         <
+   v p151            <
 
      actual command-character commands
- ^                       <         <  < <        <
-    "reload"       >04g!#^_f2G14GQ#^_    "SYOT"4#^(                          ^
+ ^                       <            < <        <
+    "reload"       >51g!#^_              "SYOT"4#^(                          ^
    >17G 0"daoler"Q!|   prefix check   ^W^#     g12\3\0+bg16P3g16"Reloaded."ad0<
    v               <                                                          >^
- ^                      <         < <
-    "raw" >v    >  04g!#^_f2G14GQ#^_ 57GN51p03P 51g:d\3p1+:a\3p1+ v
+ ^                      <           <
+    "raw" >v    >  51g!#^_           57GN51p03P 51g:d\3p1+:a\3p1+ v
    >17GN3`|>4L0" war"v                >    >0a".deliaf dnes waR"   >:#,_@
    v   P51<0   _^#Q  <              ^_^#!-W^#            g12\3\0: <
- ^                       <         <                      <        <
-    "code" >v    >  04g!#^_f2G14GQ#^_0"R0"67GA08P "RBUS"4#^(v      ^  ) <
+ ^                       <                                <        <
+    "code" >v    >  51g!#^_          0"R0"67GA08P "RBUS"4#^(v      ^  ) <
    >17GN4` |>5L0" edoc"v                         v YO'YJ'YA'<
    v    P51<0   _^#Q   <                         > 080C 'R'AZ'R'JZ'R'OZ ^
- ^                    <  <                            >#<$#)<
-    "save"      >04g!#^_v  >          'G'KZ'P'BZ"ELIF"4#^(             001 v
-   >17G0"evas"Q!|v G2f  <   vPv#AK\0\a\0\g15:<-a0 p15O^#"data/fungot.dat"0 <
-   v            <> 14G Q#^_^>$           1+:#^_$vv_v#gg1e:$Pv#AUgg1e\a\0\g15 <
+ ^                    <                               >#<$#)<
+    "save"      >51g!#^_   >          'G'KZ'P'BZ"ELIF"4#^(             001 v
+   >17G0"evas"Q!|           vPv#AK\0\a\0\g15:<-a0 p15O^#"data/fungot.dat"0 <
+   v            <           >$           1+:#^_$vv_v#gg1e:$Pv#AUgg1e\a\0\g15 <
      v       B80"Fail: "<S'0$C< v!g\0:< ***aaa2 <>                       v   :
      v         B80"OK."0  Cg15 $_v    ^+1         $<    v$\ <            >1+ ^
                                  >:51g\0\a\0\KA#vP$1+:e1 p:0\g51g\0\a\UA#vP$1^
                         ^                  P'0$C<       <               <
-     >                                       )'KY'BY     08GN51p61g:51g+61p3P ^
-
-
+ ^   >#            #<                        )'KY'BY     08GN51p61g:51g+61p3P ^
+    "ignor">v >51g!#^_77g:#v_$ 0aa+->:0\g#v_                                  ^
+   >17GN5` |>6 L0"erongi" v"    > 1-^     >:0\" "\0\GA v        >$0".KO"v
+   v    P51<0_^#Q         <     ^    P3p16+g15:g16p15N < >87g'--| v:g16 <
+   v                      "" _87g'--#v_97G v   >:0\G08GQ!|      # >3+61p3P    ^
+                           >-^       > 87G >08P 0aa+- v-1<      ^0  p+1\0\0<
+      v Pg150G80p15p\0\0-1:_v#`-*770:_v#--'g78_^#!g\0:<    >gP  >1->:0\g#v_^
+                            > $0".hcum oot sI"         v   ^150G\0:p15+1:<
+      > 0".KO"61g:3+61p3P v           >$0".derongi toN">61g:c+61p3P           ^
+                          >                                                   ^
     "help"       >0"]txet[ dda/tes/teg 9-0 rts"41g" ;N:rts/txet=edoc ,lu/f"v
    >17G0"pleh"Q>!| v "<command> <lang> <code>; "g14"show [command]; lang=b"<
    v             < > " fed"41g" ;>edoc< >gnal<"41g        N51p61g3P61g51g+61p ^
@@ -317,9 +332,9 @@ v             <      v"Pong send failed."a0<
        ^                 -1 p8\g1b+1\ P8g1aGa0 p1a: --1g1a: <
      $
      $  >'S-!#v_ $ 0"!nsni dab... " 61g3P61gd+61p                             ^
-     $        > 91g9G N 91g1++ :0`!#v_ $$                                    ^
-     $ ^      P3p16+g15:g16p15N p19 <
- ^   <
+     $        > 91g9G N 91g1++ :0`!         #v_ $$                           ^
+     $ ^_v#` g16 **777 P3p16+g15:g16p15N p19 <
+ ^   <   > 0"!tuptuo hcum oot... " 777** :aa++61p 3P                          ^
 
       PROG PREPS:
     :
