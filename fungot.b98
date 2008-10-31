@@ -20,6 +20,13 @@ v         <          >!#^_1-IV0e1g1+:e1pp$ 1>: v       $
                |  gg1e: pg1e \$\VI-1_v#:Gv#g15 <
                                      >   >          ^
                >                                       ^
+>000aa+-pv
+v        < TODO FIXME: load ignore from statefile
+ try to load REXP for ignores
+>"PXER"4#v($$'C'BZ'CY'FY00aa+-g!#v_00aa+-G7#vBv
+vp-+aa000<                                  $
+v                                <          < <
+
  save settings from the loader
 >  f2P  41p  #vIv
 v G1fP1f   p10>#<0a".sserdda PI dilavnI">:#,_@
@@ -96,12 +103,11 @@ v             <      v"Pong send failed."a0<
                 v        <p4\!'<> 1>:4g:!#v_ '!- |v1 6 <     privmsg print
                                |  P60 G41 <1p4\0:<>p v_^#`g16:*2*ff_^#-g17g16  <
                 v              _ d-if               $># $61g:d\3p1+: a\3p1+ v
-                  check the ignore list             ^W^#            g12\3\0 <
+                  check the ignore list             ^W^#           g 12\3\0 <
+                                                       >            ^
+                > 04g!#v_00aa+-g!#v_ 14G0#vE 51p>51g:!#^_1-51pv
+                v      <          <       <     ^          P51<
 
-                > 04g!#v_ "PXER"4#v( 0aa+- >:0\g!#v_:0\G3#vC14G0#vEv
-                v      <          <)             $<      $<
-                                           ^-1F                  <
- ^                                                          )$FP51$<
                   build reply prefix
    v_v#!-g14 <  >0": "06GA0" GSMVIRP"A v
       cmdchk ^g70         P30 p17p16:N <
@@ -184,19 +190,11 @@ v             <      v"Pong send failed."a0<
      v         B80"OK."0  Cg15 $_v    ^+1         $<    v$\ <            >1+ ^
                                  >:51g\0\a\0\KA#vP$1+:e1 p:0\g51g\0\a\UA#vP$1^
                         ^                  P'0$C<       <               <
- ^   >#            #<                        )'KY'BY     08GN51p61g:51g+61p3P ^
-    "ignor">v >51g!#^_77g:#v_$ 0aa+->:0\g#v_                                  ^
-   >17GN5` |>6 L0"erongi" v"    > 1-^     >:0\" "\0\GA v        >$0".KO"v
-   v    P51<0_^#Q         <     ^    P3p16+g15:g16p15N < >87g'--| v:g16 <
-   v                      "" _87g'--#v_97G v   >:0\G08GQ!|      # >3+61p3P    ^
-                           >-^       > 87G >08P 0aa+- v-1<      ^0  p+1\0\0<
-      v Pg150G80p15p\0\0-1:_v#`-*770:_v#--'g78_^#!g\0:<    >gP  >1->:0\g#v_^
-                            > $0".hcum oot sI"         v   ^150G\0:p15+1:<
-      > 0".KO"61g:3+61p3P v           >$0".derongi toN">61g:c+61p3P           ^
-                          >                                                   ^
-    "help"       >0"]txet[ dda/tes/teg 9-0 rts"41g" ;N:rts/txet=edoc ,lu/f"v
-   >17G0"pleh"Q>!| v "<command> <lang> <code>; "g14"show [command]; lang=b"<
-   v             < > " fed"41g" ;>edoc< >gnal<"41g        N51p61g3P61g51g+61p ^
+ ^   >#            #<                        )'KY'BY    08G>N51p61g:51g+61p3P ^
+    "ignor">v >51g!#^_77g:#v_$00aa+-G                      ^
+   >17GN5` |>6 L0"erongi" v>" "-#v_87G7#vB87G00aa+-P 0".KO"^
+   v    P51<0_^#Q         <v     <      >U0" :er daB"A     ^
+   v                       <
                  v
     "bool"      >?>0".oN" 61g:3+61p3P>                                        ^
    >17G0"loob"Q!|>0".seY" 61g:4+61p3P^
