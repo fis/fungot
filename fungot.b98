@@ -32,8 +32,12 @@ v                                <          < <
 v G1fP1f   p10>#<0a".sserdda PI dilavnI">:#,_@
 
  non-persistent state init
-> 000f-p 010f-p v
-v      p-+aa000 <
+> 000f-p 010f-p   0"cri.nib.ledom"00fe+-P v
+v      p-+aa000  P-+ff00"tokens.bin.irc"0 <
+
+ load the babble model list
+> 0ccc**00"tsil.selyts"#vi$$$$v
+v                       <     <
 
  Build initial login packet at (0,0)
 >0" KCIN"00PN5+11p50P11g:d\0p1+:a\0p1+11p0ad   v
@@ -122,13 +126,13 @@ v             <      v"Pong send failed."a0<
                      >10f-G14GQ#^_00f-g1+>:00f-p3`!#^_61g71p                   ^
                      $         >$)'KY'BY                                       ^
  ^             <     YB'YK'            <)<                <Cg17          $<
-     >f1G07GF!#^_>_v>'G'KZ'P'BZ"ELIF"4#^( 0800"nib.ledom"#^O71p 882**e1p01-v
+     >f1G07GF!#^_>_v>'G'KZ'P'BZ"ELIF"4#^( 080  00fe+-K   #^O71p 882**e1p01-v
       v:g4:<1_v#g40<           #   >#v   ^# p9\2+1_v#`*ff:g18 < p180p901p9:<
      v_$$    v>     ^^ P3p16+g< <    v   _v#! -2g9 <          ^            <
      '       >0':14GAN51p61g:51 ^         >71g00#vS$81gv                  0
      !  >1+^ p       >                           >        >      >  > >   ^
-     >-#^_0\4^ >    #$             ^     v       p15g9:<-1   <
-         v p17O^#"tokens.bin"0080Cg17<    >:!#v_   71g\0\#^S$^
+     >-#^_0\4^ >                   ^     v       p15g9:<-1   <
+         v p17O^#   K -+ff00  080Cg17<    >:!#v_   71g\0\#^S$^
          > 0 > :9g:2- #v_$$71gC^     ^p9+  <         pickword:
       >1p3B1+^                     >281g1  ^  >$$ 71g091gc1g8*+ #^S5 #^R$v
       ^6+g15:g16 p15N <                 v  0<  v0<  v+1/3g18_v# g80      <
@@ -199,6 +203,14 @@ v             <      v"Pong send failed."a0<
     "bool"      >?>0".oN" 61g:3+61p3P>                                        ^
    >17G0"loob"Q!|>0".seY" 61g:4+61p3P^
    v            <
+                                                      >$                      ^
+    "style">v  >$   67g:#v_$ 0":elbaliavA" 61g:a+61p3P ccc**v
+   >17GN4` |>5L0"elyts"v >" "-v       v p15N " "G\0: _^#g\0:<+1    <    p3p16<
+   v    P51<0 _^#Q     <010   _ccc**v > 61g:51g+61p3P :0\Ga0ef+-GQ#^_'*61g:1+^
+                             > 1+   >:0\g#v_$0".dnuof toN">N51p 61g:51g+61p3P ^
+                             ^ _v#QG77G\0:<               ^G77         <
+      vP-+ef00A"model.bin."0G77 >#pa#1<
+      >77G0".nib.snekot"A00ff+-P 77GN1+a1gG0" :elyts detceleS"A 77P15P ^
 
     "str" >v    >  67g" "-!#v_> >   >0"]txet[ dda/tes/teg 9-0 rts"41gv
    >17GN3`|>4L0" rts"vv0'g75< $ $   $                      v"Usage: "<
