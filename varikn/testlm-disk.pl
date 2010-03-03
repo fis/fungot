@@ -177,15 +177,20 @@ foreach my $c (1 .. $count)
 	'PCDQUOT' => '"', 'PCPAREN' => ')', 'PCSQUOT' => "'"
 	);
     my %punct_next = (
-	'PODQUOT' => '"', 'POPAREN' => '(', 'POSQUOT' => "'"
+	'PODQUOT' => '"', 'POPAREN' => '(', 'POSQUOT' => "'",
+	'PHASH' => '#', 'PAT' => '@',
 	);
+    my %punct_mid = (
+        'PSLASH' => '/',
+        );
     my %punct_sep = (
-	'PSLASH' => '/', 'PSMILE' => ':)', 'PFROWN' => ':('
+	'PSMILE' => ':)', 'PFROWN' => ':(', 'PSEP' => '/'
 	);
 
     my %punct = (
 	%punct_prev,
 	%punct_next,
+        %punct_mid,
 	%punct_sep
 	);
 
@@ -205,10 +210,11 @@ foreach my $c (1 .. $count)
 
 	# When do we need a space? Whenever the previous token does
 	# not belong to the punct_next category, and the current token
-	# does not belong to the punct_prev category.
+	# does not belong to the punct_prev category, and neither one
+        # belongs to the punct_mid category.
 
 	my $pt = ($i > 0 ? $phrase[$i-1] : 'START');
-	if ($pt ne 'START' and not $punct_next{$pt} and not $punct_prev{$t})
+	if ($pt ne 'START' and not $punct_next{$pt} and not $punct_prev{$t} and not $punct_mid{$pt} and not $punct_mid{$t})
 	{
 	    $text .= ' ';
 	}

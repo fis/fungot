@@ -17,8 +17,9 @@ my $endpunctre = qr/[),:?!"]|''?|\.{1,3}/;
 my %startpunct = (
 	'(' => 'POPAREN',
 	'"' => 'PODQUOT', '``' => 'PODQUOT', '\'' => 'POSQUOT',
+	'#' => 'PHASH', '@' => 'PAT',
 );
-my $startpunctre = qr/[("']|``/;
+my $startpunctre = qr/[("'#@]|``/;
 
 my %midpunct = (
 	'/' => 'PSLASH',
@@ -28,8 +29,9 @@ my $midpunctre = qr#/#;
 my %seppunct = (
 	':)' => 'PSMILE', ':-)' => 'PSMILE',
 	':(' => 'PFROWN', ':-(' => 'PFROWN',
+	'/' => 'PSEP',
 );
-my $seppunctre = qr/:-?[()]/;
+my $seppunctre = qr#:-?[()]|/#;
 
 my $badcharre = qr'[@{}\[\]#$\\^~<>|]';
 
@@ -41,6 +43,15 @@ while (<>) {
 	my $text = lc($_);
 	$text =~ s/^\s*//;
 	$text =~ s/\s*$//;
+
+	# convert some HTML entities just in case
+
+	$text =~ s/&lt;/</g;
+	$text =~ s/&gt;/>/g;
+	$text =~ s/&quot;/"/g;
+	$text =~ s/&amp;/&/g;
+
+	$text =~ s/[^\x00-\x7e]//g;
 
 	next unless $text =~ m#^(?:\w|$startpunctre)#o; # cleanup
 
