@@ -39,8 +39,8 @@
     dup rot swap !               \ buf
     0 over cell+ ! ;
 
-: buf-append ( buf char -- buf )
-    swap dup @ over cell+ @               \ char buf size len
+: buf-append ( char buf -- buf )
+    dup @ over cell+ @                    \ char buf size len
     = if                                  \ char buf
         dup @ 2* 2 cells + allocate throw \ char buf new-buf
         2dup over @ 2 cells + move
@@ -60,8 +60,8 @@
     dup rot swap !
     0 over cell+ ! ;
 
-: cellbuf-append ( buf cell -- buf )
-    swap dup @ over cell+ @
+: cellbuf-append ( cell buf -- buf )
+    dup @ over cell+ @
     = if
         dup @ cells 2* 2 cells + allocate throw
         2dup over @ cells 2 cells + move

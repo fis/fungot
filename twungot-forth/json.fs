@@ -93,7 +93,7 @@ is json-dump
     dup if json-getchar else -1 endif ;
 
 : json-ungetchar ( c-addr1 u1 char -- c-addr2 u2 )
-    rot 1- dup -rot c! swap 1+ ;
+    rot 1- tuck c! swap 1+ ;
 
 : json-isblank ( char -- flag )
     case
@@ -174,7 +174,7 @@ defer json-parse-array
     begin
         json-parse-string-char
         dup 0>=
-    while buf swap buf-append to buf repeat
+    while buf buf-append to buf repeat
     drop                 \ c-addr2 u2
     buf buf-count strdup \ c-addr2 u2 str-addr str-u
     buf free throw ;
@@ -218,7 +218,7 @@ is json-parse-string
     json-type-float json-fmake ;
 
 : json-parse-number-fraction ( int-part c-addr1 u1 -- c-addr2 u2 number )
-    dup -rot                 \ int-part u1 c-addr u
+    tuck                     \ int-part u1 c-addr u
     json-parse-number-digits \ int-part u1 c-addr u frac-part
     -rot dup 4 roll swap -   \ int-part frac-part c-addr u frac-len
     10e0 0 d>f fnegate f**   \ int-part frac-part c-addr u  /  F: multiplier
@@ -258,7 +258,7 @@ is json-parse-object
     begin json-trim dup 0x5d <>
     while
             json-ungetchar json-parse-value \ c-addr u value
-            buf swap cellbuf-append to buf  \ c-addr u
+            buf cellbuf-append to buf       \ c-addr u
             json-trim case
                 0x5d of 0x5d json-ungetchar endof
                 0x2c of endof
