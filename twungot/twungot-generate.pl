@@ -253,7 +253,7 @@ foreach my $c (1 .. $count)
 	$pt = $punct{$t};
 	$t = $pt if $pt;
 
-        if (length($text) > $len-5)
+        if (length($text)+length($t) > $len-3)
         {
             $text =~ s/ *$//;
             $text .= '...';
