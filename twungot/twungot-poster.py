@@ -57,7 +57,7 @@ def get_json(url, data=None, user=None, password=None):
 def tweet(user, password, text):
     """Post a Tweeter update."""
 
-    data = get_json(url_update, (('status', text),), user, password)
+    data = get_json(url_update, (('status', text.encode('utf-8')),), user, password)
     return data
 
 def get_mentions(user, password, prev):
@@ -73,17 +73,26 @@ def get_mentions(user, password, prev):
 def generate(model, title=None):
     """Generate a tweet text."""
 
-    if title is None:
-        title = 'About %s: ' % model['title']
+    if model.has_key('command'):
+        title = ''
+        gen = os.popen(model['command'], 'r')
 
-    cmd = "%s '%s' '%s' %d" % (gen_script,
-                               catfile(cfg['dir'], model['tokens']),
-                               catfile(cfg['dir'], model['model']),
-                               140 - len(title))
+    else:
+        if title is None:
+            title = 'About %s: ' % model['title']
 
-    gen = os.popen(cmd, 'r')
+        cmd = "%s '%s' '%s' %d" % (gen_script,
+                                   catfile(cfg['dir'], model['tokens']),
+                                   catfile(cfg['dir'], model['model']),
+                                   140 - len(title))
+
+        gen = os.popen(cmd, 'r')
+
     text = gen.read()
     gen.close()
+
+    if model.has_key('encoding'):
+        text = text.decode(model['encoding'], 'ignore')
 
     return title + text.strip()
 
@@ -117,10 +126,13 @@ while True:
     for model in cfg['models']:
         if random.randint(1, model['period']) > 1: continue
 
-        text = generate(model)
-        result = tweet(cfg['username'], cfg['password'], text)
+        user = model.get('username', cfg['username'])
+        password = model.get('password', cfg['password'])
 
-        print "[%s] Tweeted: %s" % (time.strftime('%Y-%m-%d %H:%M:%S'), text)
+        text = generate(model)
+        result = tweet(user, password, text)
+
+        print "[%s] Tweeted: %s (%s)" % (time.strftime('%Y-%m-%d %H:%M:%S'), text, user)
 
     # If it is time, check and reply to @mentions.
 
