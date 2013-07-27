@@ -37,7 +37,7 @@ if (@prefix)
 	my $offset = ($offset[0] << 14) | ($offset[1] << 7) | $offset[2];
 	last if $offset+$len > length($tdata) or $offset < $prev_offset;
 	$tokenmap{substr($tdata, $offset, $len)} = $token;
-      $token++;
+        $token++;
     }
 }
 
@@ -115,9 +115,9 @@ sub descend
 {
     my ($tree, $context, $at) = @_;
 
-    return $tree if $at <= 0;
+    return ($tree, $at+1) if $at < 0;
     my $child = $tree->{'childs'}->{$context->[$at]};
-    return $tree unless $child;
+    return ($tree, $at+1) unless $child;
     return descend(read_node($child), $context, $at-1);
 }
 
@@ -137,7 +137,13 @@ foreach my $c (1 .. $count)
 
     while (scalar @phrase < 500 and $phrase[$#phrase] != 2)
     {
-	my $prefix = descend($tree, \@phrase, $#phrase);
+	my ($prefix, $contextat) = descend($tree, \@phrase, $#phrase);
+
+        #print "with context: ", join(' ', map { token2text($_) } @phrase), "\n";
+        #print "used context: ", join(' ', map { token2text($_) } @phrase[$contextat .. $#phrase]), "\n";
+        my @t = sort { $b->[1] <=> $a->[1] } @{$prefix->{'nexts'}};
+        @t = @t[0 .. 19] if $#t > 19;
+        #print "next: ", join(' ', map { sprintf '%s:%.3f', token2text($_->[0]), $_->[1]/$prefix->{'totalnext'} } @t), "\n";
 
 	if ($prefix->{'canstop'})
 	{
