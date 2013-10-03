@@ -92,5 +92,10 @@ the PFOO tokens if you want punctuation.
 
 7. Install your new model in fungot.
 
-I have to eat some food now, I'll document this, Appendix A, and the other
-stuff later. Sorry. I hope no-one sees this.
+Put the files in place, and edit the styles.list file.  See main documentation
+for details.
+
+Appendix A
+----------
+
+To be documented.
