@@ -22,7 +22,7 @@ Requires: a Funge-98 interpreter with support for the `STRN`, `FILE`, `FING`, `S
 
 To run, you should modify one of the `fungot-load-*.b98` files and then run it.  It will load the `fungot.b98` by itself.  The files should hopefully be more or less self-documenting.  Remember not to misalign any `v`s or `<`s.  Administrative commands such as `^ignore` and `^save` are only accepted if the associated `nick!user@host` prefix matches the one set in the file.
 
-It might be necessary to create the file `data/fungot.dat` and put ten empty lines there.  Available babbling styles are loaded from the file `styles.list`, which should contain lines of the form "label\0description\0" (those are actual 0 bytes) and be terminated with a line containing a single "\0".  The babbling model files are then `model.bin.`*label* and `tokens.bin.`*label*.
+It might be necessary to create the file `data/fungot.dat` and put ten empty lines there.  Available babbling styles are loaded from the file `styles.list`, which should contain lines of the form "label\0description\0" (those are actual 0 bytes) and be terminated with a line containing a single "\0".  The babbling model files are then `model.bin.<label>` and `tokens.bin.<label>`.
 
 Check the standard output of your Funge interpreter for connection details.  Use `^raw JOIN #channel` (as an administrator) in a private message, afterwards.
 
