@@ -3,8 +3,8 @@ v load permanent fingerprints and remap            v 0*aa0)S+*aa20**aaa*aa" "<
 v        ># #<0a".detroppus ton GNIF">:#,_@              (^reload)
 >"NRTS"4#v($$'S'UZv
 v   ZQ'C'>#      #<0a".detroppus ton NRTS">:#,_@
->"KCOS"4#v($$v
-v  YL'YA'># #<0a".detroppus ton KCOS">:#,_@
+>"KCOS"4   #v($$v
+vZT'O'YL'YA'># #<0a".detroppus ton KCOS">:#,_@
 >"EKCS"4#v($$v
 v     YP'># #<0a".detroppus ton EKCS">:#,_@
 
@@ -42,9 +42,11 @@ v                       <     <
  Build initial login packet at (0,0)
 >0" KCIN"00PN5+11p50P11g:d\0p1+:a\0p1+11p0ad   v
 vp11++2*93g11P0g11"USER fungot * * :fungot-0.1"<
- Create a socket and connect to server
+ Create a socket, set SO_KEEPALIVE and connect to server
 >221#vSv
 vp12:>#<0a".tekcos a etaerc ot elbanU">:#,_@
+>:1\3\#vTv
+v      >#<0a".deliaf EVILAPEEK_OS gnitteS">:#,_@
 >20"7666"V01g#vCv
 v             >#<0a".tcennoc ot elbanU">:#,_@
  Send out the registration packet.
