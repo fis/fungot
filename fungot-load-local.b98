@@ -2,8 +2,11 @@ v Funge-98 IRC bot, (c) Heikki Kallasjoki, 2008.
 >           v
   Nickname:
 v"fungot"0  <
+>                 v
+  Password (either 0 or "pass"0)
+v"password"0      <
 >               v
-  IRC server (IP only):
+  IRC server (IP only) and port:
 v"127.0.0.1"0   <
 >        v
   Command character:

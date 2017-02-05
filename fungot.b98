@@ -40,8 +40,10 @@ v      p-+aa000  P-+ff00"tokens.bin.irc"0 <
 v                       <     <
 
  Build initial login packet at (0,0)
->0" KCIN"00PN5+11p50P11g:d\0p1+:a\0p1+11p0ad   v
-vp11++2*93g11P0g11"USER fungot * * :fungot-0.1"<
+>:!#v_0" SSAP"00PN5+11p5v
+vp11<+1p0\a:+1p0\d:g11P0<
+>N51p0" KCIN"11g:5+11p0P11g0P11g51g+:d\0p1+:a\0p1+11p0ad   v
+vp11++2*93g11P0g11"USER fungot * * :fungot-0.1"            <
  Create a socket, set SO_KEEPALIVE and connect to server
 >221#vSv
 vp12:>#<0a".tekcos a etaerc ot elbanU">:#,_@
