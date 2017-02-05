@@ -5,9 +5,9 @@ v"fungot"0  <
 >                 v
   Password (either 0 or "pass"0)
 v"hunter2"0       <
->               v
-  IRC server (IP only):
-v"81.18.73.123"0<
+>                         v
+  IRC server (IP only) and port:
+v"81.18.73.123"0 "6667"0  <
 >        v
   Command character:
 v ^'     <
