@@ -28,8 +28,8 @@ vp-+aa000<                                  $
 v                                <          < <
 
  save settings from the loader
->  f2P  41p       #vIv
-v G1fP1f  p17V  p10>#<0a".sserdda PI dilavnI">:#,_@
+>  f2P  41p#vIv
+v  p17V  p10>#<0a".sserdda PI dilavnI">:#,_@
 
  non-persistent state init
 > 000f-p 010f-p   0"cri.nib.ledom"00fe+-P v
@@ -42,8 +42,8 @@ v                       <     <
  Build initial login packet at (0,0)
 >:!#v_0" SSAP"00PN5+11p5v
 vp11<+1p0\a:+1p0\d:g11P0<
->N51p0" KCIN"11g:5+11p0P11g0P11g51g+:d\0p1+:a\0p1+11p0ad   v
-vp11++2*93g11P0g11"USER fungot * * :fungot-0.1"            <
+>f1Pf1GN51p0" KCIN"11g:5+11p0P11g0P11g51g+:d\0p1+:a\0p v
+vp11++2*93g11P0g11"USER fungot * * :fungot-0.1"da0p11+1<
  Create a socket, set SO_KEEPALIVE and connect to server
 >221#vSv
 vp12:>#<0a".tekcos a etaerc ot elbanU">:#,_@
