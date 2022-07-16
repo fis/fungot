@@ -3,7 +3,7 @@ fungot, a Funge-98 bot
 
 This is *fungot*, an IRC bot written in Funge-98.
 
-Assorted details related to its operation follow, but there is no "proper" documentation.  For details, your best bet is probably to find `fizzie` on the freenode IRC channel `#esoteric`.
+Assorted details related to its operation follow, but there is no "proper" documentation.  For details, your best bet is probably to find `fizzie` on the Libera.Chat IRC channel `#esolangs`.
 
 (On the other hand, why are you even interested?)
 
